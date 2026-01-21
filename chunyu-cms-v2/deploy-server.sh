@@ -92,13 +92,13 @@ mkdir -p /var/www
 cd /var/www
 
 # 如果目录已存在，先删除
-if [ -d "chunyu-cms-v2" ]; then
-    rm -rf chunyu-cms-v2
+if [ -d "movieforvideandmu3uinclud" ]; then
+    rm -rf movieforvideandmu3uinclud
 fi
 
 # 克隆项目
 git clone https://github.com/yeluoge26/movieforvideandmu3uinclud.git
-cd chunyu-cms-v2
+cd movieforvideandmu3uinclud
 
 echo "项目克隆完成"
 
@@ -213,14 +213,14 @@ server {
 
     # 上传文件静态资源
     location /uploads {
-        alias /var/www/chunyu-cms-v2/chunyu-cms-web/uploads;
+        alias /var/www/movieforvideandmu3uinclud/chunyu-cms-web/uploads;
         expires 30d;
         add_header Cache-Control "public, immutable";
     }
 
     # 管理端 (可选，使用单服务模式时启用)
     location /admin {
-        alias /var/www/chunyu-cms-v2/chunyu-cms-admin/dist;
+        alias /var/www/movieforvideandmu3uinclud/chunyu-cms-admin/dist;
         index index.html;
         try_files \$uri \$uri/ /admin/index.html;
     }
@@ -234,8 +234,8 @@ ln -sf /etc/nginx/sites-available/chunyu-cms /etc/nginx/sites-enabled/
 rm -f /etc/nginx/sites-enabled/default
 
 # 创建上传目录
-mkdir -p /var/www/chunyu-cms-v2/chunyu-cms-web/uploads
-chown -R www-data:www-data /var/www/chunyu-cms-v2/chunyu-cms-web/uploads
+mkdir -p /var/www/movieforvideandmu3uinclud/chunyu-cms-web/uploads
+chown -R www-data:www-data /var/www/movieforvideandmu3uinclud/chunyu-cms-web/uploads
 
 # 测试并重启 Nginx
 nginx -t
@@ -280,7 +280,7 @@ echo -e "   MySQL 密码: ${YELLOW}${MYSQL_ROOT_PASSWORD}${NC}"
 echo -e "   Redis 密码: ${YELLOW}${REDIS_PASSWORD}${NC}"
 echo -e "   JWT Secret: ${YELLOW}${JWT_SECRET}${NC}"
 echo ""
-echo "3. 配置文件位置: /var/www/chunyu-cms-v2/chunyu-cms-web/.env"
+echo "3. 配置文件位置: /var/www/movieforvideandmu3uinclud/chunyu-cms-web/.env"
 echo "4. 查看应用状态: pm2 status"
 echo "5. 查看应用日志: pm2 logs"
 echo ""

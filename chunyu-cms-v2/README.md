@@ -155,7 +155,7 @@ server {
         proxy_pass http://127.0.0.1:3000/;
     }
     location /uploads {
-        alias /path/to/chunyu-cms-v2/chunyu-cms-web/uploads;
+        alias /path/to/movieforvideandmu3uinclud/chunyu-cms-web/uploads;
     }
 }
 
@@ -164,7 +164,7 @@ server {
     server_name your-admin.domain.com;
 
     location / {
-        root  /path/to/chunyu-cms-v2/chunyu-cms-admin/dist;
+        root  /path/to/movieforvideandmu3uinclud/chunyu-cms-admin/dist;
         index index.html;
         try_files $uri $uri/ /index.html;
     }
@@ -207,7 +207,7 @@ server {
         proxy_pass http://127.0.0.1:3000/;
     }
     location /uploads {
-        alias /path/to/chunyu-cms-v2/chunyu-cms-web/uploads;
+        alias /path/to/movieforvideandmu3uinclud/chunyu-cms-web/uploads;
     }
 }
 ```
