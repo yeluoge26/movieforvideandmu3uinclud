@@ -260,26 +260,75 @@ else
         mysql -u root -e "FLUSH PRIVILEGES;" 2>/dev/null || true
         log_info "MySQL 密码已设置为: ${MYSQL_ROOT_PASSWORD}"
     else
-        log_warn "无法自动设置 MySQL 密码，可能需要手动重置"
-        log_info "MySQL 密码应为: ${MYSQL_ROOT_PASSWORD}"
+        # 使用安全模式重置密码
+        log_info "使用安全模式重置 MySQL root 密码..."
+        systemctl stop mysql 2>/dev/null || true
+        sleep 2
+        
+        # 启动 MySQL 安全模式（跳过权限表）
+        mysqld_safe --skip-grant-tables --skip-networking > /dev/null 2>&1 &
+        MYSQL_SAFE_PID=$!
+        sleep 5
+        
+        # 重置密码
+        mysql -u root << EOF 2>/dev/null || true
+USE mysql;
+FLUSH PRIVILEGES;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';
+FLUSH PRIVILEGES;
+EOF
+        
+        # 停止安全模式
+        kill $MYSQL_SAFE_PID 2>/dev/null || true
+        pkill mysqld_safe 2>/dev/null || true
+        pkill mysqld 2>/dev/null || true
+        sleep 3
+        
+        # 正常启动 MySQL
+        systemctl start mysql
+        sleep 3
+        
+        # 验证密码是否设置成功
+        if mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "SELECT 1;" 2>/dev/null; then
+            log_info "MySQL 密码重置成功: ${MYSQL_ROOT_PASSWORD}"
+        else
+            log_warn "MySQL 密码重置可能失败，请手动检查"
+            log_info "尝试使用密码: ${MYSQL_ROOT_PASSWORD}"
+        fi
     fi
 fi
 
 # 删除并重新创建数据库
 log_info "删除并重新创建数据库 ${MYSQL_DATABASE}..."
+
+# 尝试删除数据库（使用密码或无密码）
 mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "DROP DATABASE IF EXISTS \`${MYSQL_DATABASE}\`;" 2>/dev/null || \
 mysql -u root -e "DROP DATABASE IF EXISTS \`${MYSQL_DATABASE}\`;" 2>/dev/null || true
 
-# 创建新数据库
-if mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "CREATE DATABASE \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;" 2>/dev/null; then
-    log_info "数据库 ${MYSQL_DATABASE} 创建成功"
-elif mysql -u root -e "CREATE DATABASE \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;" 2>/dev/null; then
-    log_info "数据库 ${MYSQL_DATABASE} 创建成功（使用无密码登录）"
-    # 设置密码
-    mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';" 2>/dev/null || true
-    mysql -u root -e "FLUSH PRIVILEGES;" 2>/dev/null || true
-else
+# 创建新数据库（多次尝试）
+DB_CREATED=false
+for i in 1 2 3; do
+    if mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "CREATE DATABASE \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;" 2>/dev/null; then
+        log_info "数据库 ${MYSQL_DATABASE} 创建成功"
+        DB_CREATED=true
+        break
+    elif mysql -u root -e "CREATE DATABASE \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;" 2>/dev/null; then
+        log_info "数据库 ${MYSQL_DATABASE} 创建成功（使用无密码登录）"
+        # 设置密码
+        mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';" 2>/dev/null || true
+        mysql -u root -e "FLUSH PRIVILEGES;" 2>/dev/null || true
+        DB_CREATED=true
+        break
+    else
+        log_warn "尝试创建数据库失败，等待 MySQL 就绪... (尝试 $i/3)"
+        sleep 2
+    fi
+done
+
+if [ "$DB_CREATED" = false ]; then
     log_error "无法创建数据库，请检查 MySQL 配置"
+    log_info "请手动执行以下命令："
+    log_info "mysql -u root -p'${MYSQL_ROOT_PASSWORD}' -e \"CREATE DATABASE \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\""
     exit 1
 fi
 
