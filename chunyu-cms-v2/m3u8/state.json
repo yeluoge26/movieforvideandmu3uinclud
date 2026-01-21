@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updated_at": "2026-01-20 23:31:45",
+  "files": {
+    "D:\\code\\movie\\chunyu-cms-v2\\m3u8\\input\\双雄出击.mp4": {
+      "status": "done",
+      "updated_at": "2026-01-20 23:31:45",
+      "src_moved_to": "D:\\code\\movie\\chunyu-cms-v2\\m3u8\\pending\\双雄出击.mp4",
+      "asset_id": "6d80ad4c3f4d3a2f413714d5b33a8cb023656201",
+      "output_dir": "D:\\code\\movie\\chunyu-cms-v2\\m3u8\\output\\6d80ad4c3f4d3a2f413714d5b33a8cb023656201",
+      "playlist": "playlist_20260120_233124.m3u8",
+      "cover": "cover.jpg",
+      "duration_sec": 5252,
+      "width": 1920,
+      "height": 816
+    }
+  }
+}

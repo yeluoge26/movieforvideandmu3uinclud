@@ -1,0 +1,39 @@
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+.vscode
+
+#ssl
+ssl
+
+.data
+
+# M3U8 output files
+m3u8/output
+m3u8/*.ts
+
+# Uploads
+uploads/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Lock files
+pnpm-lock.yaml
