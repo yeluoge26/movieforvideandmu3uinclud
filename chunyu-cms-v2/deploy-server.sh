@@ -70,24 +70,46 @@ interactive_config() {
     # 获取域名/IP
     DEFAULT_IP=$(get_server_ip)
     read -p "请输入域名或IP地址 [默认: ${DEFAULT_IP}]: " input_domain
-    DOMAIN=${input_domain:-$DEFAULT_IP}
+    if [ -z "$input_domain" ]; then
+        DOMAIN="$DEFAULT_IP"
+    else
+        DOMAIN="$input_domain"
+    fi
     
     # MySQL 密码
     DEFAULT_MYSQL_PASS="MovieCMS@$(openssl rand -hex 4)"
     read -p "请输入 MySQL root 密码 [默认: ${DEFAULT_MYSQL_PASS}]: " input_mysql_pass
-    MYSQL_ROOT_PASSWORD=${input_mysql_pass:-$DEFAULT_MYSQL_PASS}
+    if [ -z "$input_mysql_pass" ]; then
+        MYSQL_ROOT_PASSWORD="$DEFAULT_MYSQL_PASS"
+    else
+        MYSQL_ROOT_PASSWORD="$input_mysql_pass"
+    fi
     
     # Redis 密码
     DEFAULT_REDIS_PASS="Redis@$(openssl rand -hex 4)"
     read -p "请输入 Redis 密码 [默认: ${DEFAULT_REDIS_PASS}]: " input_redis_pass
-    REDIS_PASSWORD=${input_redis_pass:-$DEFAULT_REDIS_PASS}
+    if [ -z "$input_redis_pass" ]; then
+        REDIS_PASSWORD="$DEFAULT_REDIS_PASS"
+    else
+        REDIS_PASSWORD="$input_redis_pass"
+    fi
     
     # 数据库名称
     read -p "请输入数据库名称 [默认: chunyu-cms-v2]: " input_db_name
-    MYSQL_DATABASE=${input_db_name:-"chunyu-cms-v2"}
+    if [ -z "$input_db_name" ]; then
+        MYSQL_DATABASE="chunyu-cms-v2"
+    else
+        MYSQL_DATABASE="$input_db_name"
+    fi
     
     # JWT Secret
     JWT_SECRET="movie-cms-$(openssl rand -hex 16)"
+    
+    # 验证变量是否已正确设置
+    if [ -z "$DOMAIN" ] || [ -z "$MYSQL_ROOT_PASSWORD" ] || [ -z "$REDIS_PASSWORD" ] || [ -z "$MYSQL_DATABASE" ]; then
+        log_error "配置变量设置失败，请重新运行脚本"
+        exit 1
+    fi
     
     # 确认配置
     echo ""
@@ -100,10 +122,17 @@ interactive_config() {
     echo ""
     
     read -p "确认以上配置? (y/n): " confirm
-    if [ "$confirm" != "y" ]; then
+    if [ "$confirm" != "y" ] && [ "$confirm" != "Y" ]; then
         log_info "已取消安装"
         exit 0
     fi
+    
+    # 导出变量，确保在函数外部也能访问
+    export DOMAIN
+    export MYSQL_ROOT_PASSWORD
+    export MYSQL_DATABASE
+    export REDIS_PASSWORD
+    export JWT_SECRET
 }
 
 # 保存配置到文件
