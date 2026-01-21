@@ -514,6 +514,17 @@ NODE_OPTIONS="--max-old-space-size=4096" pnpm build || {
 # 安装依赖并构建 Admin
 log_info "安装 Admin 依赖..."
 cd ../chunyu-cms-admin
+
+# 创建生产环境变量文件
+log_info "创建 Admin 环境变量配置..."
+cat > .env.production << EOF
+# 生产环境配置
+VITE_APP_ENV=production
+VITE_APP_BASE_API=/api/admin
+VITE_APP_BUILD_BASE=/admin/
+VITE_APP_TITLE=淳渔CMS管理系统
+EOF
+
 pnpm install --frozen-lockfile 2>/dev/null || pnpm install
 
 log_info "构建 Admin (使用 4GB 内存限制)..."
@@ -577,11 +588,28 @@ server {
         add_header Cache-Control "public, immutable";
     }
 
-    # 管理端 (可选，使用单服务模式时启用)
-    location /admin {
-        alias /var/www/movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-admin/dist;
+    # 管理端 API 代理（必须在 /admin 之前）
+    location /api/admin {
+        proxy_pass http://127.0.0.1:3000/api/admin;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$host;
+        proxy_set_header X-Real-IP \$remote_addr;
+        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto \$scheme;
+        proxy_set_header Connection "";
+        proxy_buffering off;
+    }
+
+    # 管理端静态文件
+    location /admin/ {
+        alias /var/www/movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-admin/dist/;
         index index.html;
         try_files \$uri \$uri/ /admin/index.html;
+    }
+
+    # 管理端根路径重定向
+    location = /admin {
+        return 301 /admin/;
     }
 }
 EOF
