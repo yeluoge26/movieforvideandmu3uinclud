@@ -537,9 +537,9 @@ log_info "[7/8] 配置 PM2 和 Nginx..."
 # 停止旧的 PM2 进程
 pm2 delete all 2>/dev/null || true
 
-# 启动 PM2
+# 启动 PM2（使用配置文件中的名称 chunyu-cms-web）
 cd chunyu-cms-web
-pm2 start pm2.config.cjs --name "movie-cms"
+pm2 start pm2.config.cjs
 pm2 save
 
 # 配置 PM2 开机自启
