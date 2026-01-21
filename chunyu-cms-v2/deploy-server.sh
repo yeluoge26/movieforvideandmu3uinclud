@@ -377,10 +377,10 @@ if [ -d "movieforvideandmu3uinclud" ]; then
     BACKUP_DIR="/var/www/movie-cms-backup-$(date +%Y%m%d%H%M%S)"
     
     # 备份上传文件和配置
-    if [ -d "movieforvideandmu3uinclud/chunyu-cms-web/uploads" ]; then
+    if [ -d "movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/uploads" ]; then
         mkdir -p $BACKUP_DIR
-        cp -r movieforvideandmu3uinclud/chunyu-cms-web/uploads $BACKUP_DIR/ 2>/dev/null || true
-        cp movieforvideandmu3uinclud/chunyu-cms-web/.env $BACKUP_DIR/ 2>/dev/null || true
+        cp -r movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/uploads $BACKUP_DIR/ 2>/dev/null || true
+        cp movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/.env $BACKUP_DIR/ 2>/dev/null || true
         log_info "已备份到: ${BACKUP_DIR}"
     fi
     
@@ -391,10 +391,10 @@ fi
 log_info "正在从 GitHub 克隆项目..."
 git clone https://github.com/yeluoge26/movieforvideandmu3uinclud.git
 
-cd movieforvideandmu3uinclud
+cd movieforvideandmu3uinclud/chunyu-cms-v2
 
 # 如果有备份，恢复上传文件
-if [ -d "$BACKUP_DIR/uploads" ]; then
+if [ -n "$BACKUP_DIR" ] && [ -d "$BACKUP_DIR/uploads" ]; then
     log_info "恢复上传文件..."
     cp -r $BACKUP_DIR/uploads chunyu-cms-web/ 2>/dev/null || true
 fi
@@ -524,14 +524,14 @@ server {
 
     # 上传文件静态资源
     location /uploads {
-        alias /var/www/movieforvideandmu3uinclud/chunyu-cms-web/uploads;
+        alias /var/www/movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/uploads;
         expires 30d;
         add_header Cache-Control "public, immutable";
     }
 
     # 管理端 (可选，使用单服务模式时启用)
     location /admin {
-        alias /var/www/movieforvideandmu3uinclud/chunyu-cms-admin/dist;
+        alias /var/www/movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-admin/dist;
         index index.html;
         try_files \$uri \$uri/ /admin/index.html;
     }
@@ -545,8 +545,8 @@ ln -sf /etc/nginx/sites-available/chunyu-cms /etc/nginx/sites-enabled/
 rm -f /etc/nginx/sites-enabled/default
 
 # 创建上传目录
-mkdir -p /var/www/movieforvideandmu3uinclud/chunyu-cms-web/uploads
-chown -R www-data:www-data /var/www/movieforvideandmu3uinclud/chunyu-cms-web/uploads
+mkdir -p /var/www/movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/uploads
+chown -R www-data:www-data /var/www/movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/uploads
 
 # 测试并重启 Nginx
 nginx -t
@@ -600,9 +600,9 @@ echo -e "  重启应用:      ${YELLOW}pm2 restart all${NC}"
 echo -e "  重启 Nginx:    ${YELLOW}systemctl restart nginx${NC}"
 echo ""
 echo -e "${BLUE}━━━━━━━━━━━━━━━━ 文件位置 ━━━━━━━━━━━━━━━━${NC}"
-echo -e "  项目目录:  ${YELLOW}/var/www/movieforvideandmu3uinclud${NC}"
-echo -e "  配置文件:  ${YELLOW}/var/www/movieforvideandmu3uinclud/chunyu-cms-web/.env${NC}"
-echo -e "  上传目录:  ${YELLOW}/var/www/movieforvideandmu3uinclud/chunyu-cms-web/uploads${NC}"
+echo -e "  项目目录:  ${YELLOW}/var/www/movieforvideandmu3uinclud/chunyu-cms-v2${NC}"
+echo -e "  配置文件:  ${YELLOW}/var/www/movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/.env${NC}"
+echo -e "  上传目录:  ${YELLOW}/var/www/movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/uploads${NC}"
 echo -e "  配置备份:  ${YELLOW}/root/.movie-cms-config${NC}"
 echo ""
 echo -e "${RED}⚠️  重要提示:${NC}"
