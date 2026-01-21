@@ -25,6 +25,7 @@ ssl
 
 # M3U8 output files
 m3u8/output
+m3u8/gcpup/output
 m3u8/*.ts
 
 # Uploads
