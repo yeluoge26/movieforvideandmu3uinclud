@@ -494,21 +494,36 @@ else
     exit 1
 fi
 
+# 设置 Node.js 内存限制（避免构建时内存不足）
+export NODE_OPTIONS="--max-old-space-size=4096"
+
 # 安装依赖并构建 Web
 log_info "安装 Web 依赖 (可能需要几分钟)..."
 cd chunyu-cms-web
 pnpm install --frozen-lockfile 2>/dev/null || pnpm install
 
-log_info "构建 Web..."
-pnpm build
+log_info "构建 Web (使用 4GB 内存限制)..."
+NODE_OPTIONS="--max-old-space-size=4096" pnpm build || {
+    log_warn "构建失败，尝试使用更大的内存限制 (6GB)..."
+    NODE_OPTIONS="--max-old-space-size=6144" pnpm build || {
+        log_error "构建失败，请检查服务器内存或手动构建"
+        exit 1
+    }
+}
 
 # 安装依赖并构建 Admin
 log_info "安装 Admin 依赖..."
 cd ../chunyu-cms-admin
 pnpm install --frozen-lockfile 2>/dev/null || pnpm install
 
-log_info "构建 Admin..."
-pnpm build:prod
+log_info "构建 Admin (使用 4GB 内存限制)..."
+NODE_OPTIONS="--max-old-space-size=4096" pnpm build:prod || {
+    log_warn "构建失败，尝试使用更大的内存限制 (6GB)..."
+    NODE_OPTIONS="--max-old-space-size=6144" pnpm build:prod || {
+        log_error "构建失败，请检查服务器内存或手动构建"
+        exit 1
+    }
+}
 
 cd ..
 
