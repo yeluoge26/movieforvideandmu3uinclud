@@ -248,9 +248,9 @@ sed -i "s/^# requirepass.*/requirepass ${REDIS_PASSWORD}/" /etc/redis/redis.conf
 sed -i "s/^requirepass.*/requirepass ${REDIS_PASSWORD}/" /etc/redis/redis.conf
 sed -i "s/^bind 127.0.0.1.*/bind 127.0.0.1/" /etc/redis/redis.conf
 
-# 重启 Redis
-systemctl restart redis
-systemctl enable redis
+# 重启 Redis (使用 redis-server 作为服务名)
+systemctl restart redis-server
+systemctl enable redis-server 2>/dev/null || true
 
 log_info "Redis 安装完成"
 
