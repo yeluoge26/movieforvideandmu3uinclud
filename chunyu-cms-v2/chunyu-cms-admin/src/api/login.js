@@ -1,12 +1,13 @@
 import request from '@/utils/request'
 
-// 登录方法
+// 登录方法（已移除验证码功能）
 export function login(username, password, code, uuid) {
   const data = {
     username,
     password,
-    code,
-    uuid
+    // 验证码功能已禁用，不传递验证码参数
+    code: code || "",
+    uuid: uuid || ""
   }
   return request({
     url: '/login',

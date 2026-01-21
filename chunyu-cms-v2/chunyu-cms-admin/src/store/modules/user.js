@@ -11,12 +11,13 @@ const useUserStore = defineStore("user", {
     permissions: [],
   }),
   actions: {
-    // 登录
+    // 登录（已移除验证码功能）
     login(userInfo) {
       const username = userInfo.username.trim();
       const password = userInfo.password;
-      const code = userInfo.code;
-      const uuid = userInfo.uuid;
+      // 验证码功能已禁用，传递空值
+      const code = "";
+      const uuid = "";
       return new Promise((resolve, reject) => {
         login(username, password, code, uuid)
           .then((res) => {

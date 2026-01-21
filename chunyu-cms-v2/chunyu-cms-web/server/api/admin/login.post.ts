@@ -7,7 +7,8 @@ export default defineEventHandler(async event => {
   const body = await readBody(event);
   const headers = getHeaders(event);
   const loginInfo = { headers, user: { userName: body.username } };
-  await authServices.checkImgCaptcha(body.uuid, body.code, loginInfo);
+  // 验证码功能已禁用，跳过验证码验证
+  // await authServices.checkImgCaptcha(body.uuid, body.code, loginInfo);
   const data = await new LoginServices().login(body.username, body.password, headers);
   return createApiResponse(data);
 });
