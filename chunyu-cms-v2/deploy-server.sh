@@ -97,7 +97,7 @@ if [ -d "chunyu-cms-v2" ]; then
 fi
 
 # 克隆项目
-git clone https://github.com/yinMrsir/chunyu-cms-v2.git
+git clone https://github.com/yeluoge26/movieforvideandmu3uinclud.git
 cd chunyu-cms-v2
 
 echo "项目克隆完成"

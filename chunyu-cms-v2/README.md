@@ -4,7 +4,7 @@
 
 淳渔是一款快速搭建影视类网站的系统，它用户端和服务端都基于[nuxt4](https://nuxt.com/)开发 ,管理端基于 [vue3](https://cn.vuejs.org/) 和 [element-ui](https://element.eleme.cn/#/zh-CN) ，数据库采用 mysql ，缓存采用 redis。
 
-V2 相比[V1 版本](https://github.com/yinMrsir/chunyu-cms)使用[DrizzleOrm](https://orm.drizzle.team/)替换了 typeOrm，我想你会更容易上手操作。但请注意不支持 mysql5.x，建议使用 mysql8.x。
+V2 相比V1 版本使用[DrizzleOrm](https://orm.drizzle.team/)替换了 typeOrm，我想你会更容易上手操作。但请注意不支持 mysql5.x，建议使用 mysql8.x。
 
 ## 核心功能
 
@@ -23,8 +23,7 @@ V2 相比[V1 版本](https://github.com/yinMrsir/chunyu-cms)使用[DrizzleOrm](h
 - [用户端演示地址](https://cms.yinchunyu.com)
 - [管理端演示地址 1](https://cms-admin.yinchunyu.com)
 - [管理端演示地址 2](https://cms.yinchunyu.com/admin)
-- 源码地址 1: [GitHub](https://github.com/yinMrsir/chunyu-cms-v2)
-- 源码地址 2: [Gitee](https://gitee.com/chunyu-cms/chunyu-cms-v2)
+- 源码地址: [GitHub](https://github.com/yeluoge26/movieforvideandmu3uinclud)
 
 ## 为什么有 V2 版本？
 
@@ -36,7 +35,7 @@ V2 相比[V1 版本](https://github.com/yinMrsir/chunyu-cms)使用[DrizzleOrm](h
 - 第二，如何需要集成到一个服务中，你可以使用`pnpm run build:single`，然后通过 nginx 代理到`dist`目录即可，这样只需要一个服务，如演示地址：https://cms.yinchunyu.com/admin。
 - 第三，管理端移入 nuxt 中，会要消耗大量时间，先把时间用于其他地方，😂。
 
-当然，NestJs 有它的优势，也有很多基于它的模块，在有些功能上实现会更方便，如何你喜欢 NestJs，可以继续使用[之前的版本](https://github.com/yinMrsir/chunyu-cms)。
+当然，NestJs 有它的优势，也有很多基于它的模块，在有些功能上实现会更方便。
 
 ## 使用前
 
@@ -252,4 +251,4 @@ pnpm sql-push
 
 微信：qianduanlaoying
 
-<img src="https://raw.githubusercontent.com/yinMrsir/chunyu-cms-v2/refs/heads/main/wx.png" width="300" height="409" />
+<img src="https://raw.githubusercontent.com/yeluoge26/movieforvideandmu3uinclud/refs/heads/main/wx.png" width="300" height="409" />

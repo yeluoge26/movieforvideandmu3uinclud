@@ -33,14 +33,14 @@
         type="primary"
         icon="Cloudy"
         plain
-        @click="goTarget('https://gitee.com/chunyu-cms/chunyu-cms-v2')"
+        @click="goTarget('https://github.com/yeluoge26/movieforvideandmu3uinclud')"
       >
         码云
       </el-button>
       <el-button
         icon="Star"
         plain
-        @click="goTarget('https://github.com/yinMrsir/chunyu-cms-v2')"
+        @click="goTarget('https://github.com/yeluoge26/movieforvideandmu3uinclud')"
       >
         GitHub
       </el-button>
