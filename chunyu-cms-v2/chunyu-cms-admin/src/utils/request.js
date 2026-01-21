@@ -105,7 +105,20 @@ service.interceptors.response.use(
   },
   (error) => {
     console.log(error)
-    const { statusCode, message } = error.response?.data;
+    
+    // 处理网络错误（连接失败、超时等）
+    if (!error.response) {
+      let errorMessage = '网络连接失败，请检查网络或后端服务是否正常运行';
+      if (error.code === 'ECONNABORTED' || error.message?.includes('timeout')) {
+        errorMessage = '请求超时，请检查网络连接或稍后重试';
+      } else if (error.message?.includes('Network Error')) {
+        errorMessage = '网络错误，无法连接到服务器，请检查后端服务是否启动';
+      }
+      ElMessage.error(errorMessage);
+      return Promise.reject(new Error(errorMessage));
+    }
+    
+    const { statusCode, message } = error.response?.data || {};
     if (statusCode === 401) {
       if (!isRelogin.show) {
         isRelogin.show = true;

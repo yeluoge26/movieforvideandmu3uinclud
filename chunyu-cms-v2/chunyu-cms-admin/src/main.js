@@ -97,3 +97,27 @@ app.use(ElementPlus, {
 });
 
 app.mount("#app");
+
+// 隐藏加载动画
+function hideLoader() {
+  const loaderWrapper = document.getElementById("loader-wrapper");
+  if (loaderWrapper) {
+    document.body.classList.add("loaded");
+    // 延迟移除 DOM，等待动画完成
+    setTimeout(() => {
+      if (loaderWrapper.parentNode) {
+        loaderWrapper.parentNode.removeChild(loaderWrapper);
+      }
+    }, 1000);
+  }
+}
+
+// 应用挂载后立即隐藏加载器（最多等待 3 秒）
+setTimeout(() => {
+  hideLoader();
+}, 100);
+
+// 如果 3 秒后加载器还在，强制隐藏（防止 API 请求失败导致一直加载）
+setTimeout(() => {
+  hideLoader();
+}, 3000);

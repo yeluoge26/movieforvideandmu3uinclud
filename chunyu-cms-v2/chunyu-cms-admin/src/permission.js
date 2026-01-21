@@ -24,8 +24,20 @@ router.beforeEach((to, from, next) => {
     } else {
       if (useUserStore().roles.length === 0) {
         isRelogin.show = true
+        // 添加超时处理（10秒）
+        const timeoutId = setTimeout(() => {
+          isRelogin.show = false
+          ElMessage.error('获取用户信息超时，请检查网络连接或后端服务')
+          useUserStore().logOut().then(() => {
+            next({ path: '/login', query: { redirect: to.fullPath } })
+          }).catch(() => {
+            next({ path: '/login', query: { redirect: to.fullPath } })
+          })
+        }, 10000)
+        
         // 判断当前用户是否已拉取完user_info信息
         useUserStore().getInfo().then(() => {
+          clearTimeout(timeoutId)
           isRelogin.show = false
           usePermissionStore().generateRoutes().then(accessRoutes => {
             // 根据roles权限生成可访问的路由表
@@ -35,12 +47,23 @@ router.beforeEach((to, from, next) => {
               }
             })
             next({ ...to, replace: true }) // hack方法 确保addRoutes已完成
+          }).catch(err => {
+            clearTimeout(timeoutId)
+            isRelogin.show = false
+            console.error('生成路由失败:', err)
+            ElMessage.error('加载路由失败，请刷新页面重试')
+            next({ path: '/login', query: { redirect: to.fullPath } })
           })
         }).catch(err => {
+          clearTimeout(timeoutId)
           isRelogin.show = false
+          console.error('获取用户信息失败:', err)
+          const errorMsg = err?.message || err || '获取用户信息失败，请检查网络连接'
+          ElMessage.error(errorMsg)
           useUserStore().logOut().then(() => {
-            ElMessage.error(err)
-            next({ path: '/' })
+            next({ path: '/login', query: { redirect: to.fullPath } })
+          }).catch(() => {
+            next({ path: '/login', query: { redirect: to.fullPath } })
           })
         })
       } else {
