@@ -360,46 +360,79 @@ systemctl enable redis-server 2>/dev/null || true
 log_info "Redis 安装完成"
 
 # ==========================================
-# 5. 克隆项目代码
+# 5. 克隆或更新项目代码
 # ==========================================
-log_info "[5/8] 克隆项目代码..."
+log_info "[5/8] 更新项目代码..."
 
 # 项目目录
 PROJECT_DIR="/var/www/movieforvideandmu3uinclud"
+REPO_URL="https://github.com/yeluoge26/movieforvideandmu3uinclud.git"
 
 # 创建项目目录
 mkdir -p /var/www
 cd /var/www
 
-# 如果目录已存在，备份后删除
+# 备份目录变量
+BACKUP_DIR=""
+
+# 检查目录是否存在
 if [ -d "movieforvideandmu3uinclud" ]; then
-    log_warn "项目目录已存在，备份旧文件..."
-    BACKUP_DIR="/var/www/movie-cms-backup-$(date +%Y%m%d%H%M%S)"
-    
     # 备份上传文件和配置
     if [ -d "movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/uploads" ]; then
+        BACKUP_DIR="/var/www/movie-cms-backup-$(date +%Y%m%d%H%M%S)"
         mkdir -p $BACKUP_DIR
         cp -r movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/uploads $BACKUP_DIR/ 2>/dev/null || true
         cp movieforvideandmu3uinclud/chunyu-cms-v2/chunyu-cms-web/.env $BACKUP_DIR/ 2>/dev/null || true
         log_info "已备份到: ${BACKUP_DIR}"
     fi
     
-    rm -rf movieforvideandmu3uinclud
+    # 检查是否是 git 仓库
+    cd movieforvideandmu3uinclud
+    if [ -d ".git" ]; then
+        log_info "检测到现有 git 仓库，执行 git pull 更新..."
+        # 保存当前分支
+        CURRENT_BRANCH=$(git branch --show-current 2>/dev/null || echo "main")
+        
+        # 尝试拉取更新
+        if git pull origin ${CURRENT_BRANCH:-main} 2>/dev/null; then
+            log_info "项目更新成功"
+        else
+            log_warn "git pull 失败，尝试重置并拉取..."
+            # 如果有本地修改，先暂存
+            git stash 2>/dev/null || true
+            # 重置到远程版本
+            git fetch origin ${CURRENT_BRANCH:-main} 2>/dev/null || true
+            git reset --hard origin/${CURRENT_BRANCH:-main} 2>/dev/null || true
+            log_info "项目已重置到最新版本"
+        fi
+    else
+        log_warn "目录存在但不是 git 仓库，删除后重新克隆..."
+        cd ..
+        rm -rf movieforvideandmu3uinclud
+        log_info "正在从 GitHub 克隆项目..."
+        git clone $REPO_URL
+    fi
+else
+    # 目录不存在，直接克隆
+    log_info "正在从 GitHub 克隆项目..."
+    git clone $REPO_URL
 fi
 
-# 克隆项目
-log_info "正在从 GitHub 克隆项目..."
-git clone https://github.com/yeluoge26/movieforvideandmu3uinclud.git
-
-cd movieforvideandmu3uinclud/chunyu-cms-v2
+# 确保在正确的目录
+cd /var/www/movieforvideandmu3uinclud/chunyu-cms-v2
 
 # 如果有备份，恢复上传文件
 if [ -n "$BACKUP_DIR" ] && [ -d "$BACKUP_DIR/uploads" ]; then
     log_info "恢复上传文件..."
-    cp -r $BACKUP_DIR/uploads chunyu-cms-web/ 2>/dev/null || true
+    mkdir -p chunyu-cms-web/uploads
+    cp -r $BACKUP_DIR/uploads/* chunyu-cms-web/uploads/ 2>/dev/null || true
+    if [ -f "$BACKUP_DIR/.env" ]; then
+        log_info "恢复配置文件..."
+        cp $BACKUP_DIR/.env chunyu-cms-web/.env 2>/dev/null || true
+    fi
 fi
 
-log_info "项目克隆完成"
+log_info "项目代码更新完成"
 
 # ==========================================
 # 6. 配置和构建项目
