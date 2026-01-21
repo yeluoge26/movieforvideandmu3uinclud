@@ -1,111 +1,276 @@
 #!/bin/bash
 
 # ============================================
-# 淳渔 CMS V2 服务器部署脚本
-# 适用于 Ubuntu 22.04 / Debian 12 纯净系统
+# 影视 CMS V2 一键部署脚本
+# 适用于 Ubuntu 20.04/22.04/24.04 / Debian 11/12
+# GitHub: https://github.com/yeluoge26/movieforvideandmu3uinclud
 # ============================================
 
 set -e
-
-echo "=========================================="
-echo "开始部署淳渔 CMS V2"
-echo "=========================================="
 
 # 颜色定义
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-# 配置变量 - 请根据实际情况修改
-MYSQL_ROOT_PASSWORD="ChunYu@Cms2024!"
-MYSQL_DATABASE="chunyu-cms-v2"
-REDIS_PASSWORD="ChunYuRedis@2024"
-JWT_SECRET="chunyu-cms-v2-$(openssl rand -hex 16)"
-DOMAIN="66.42.50.172"  # 可以改为你的域名
+# 日志函数
+log_info() { echo -e "${GREEN}[INFO]${NC} $1"; }
+log_warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
+log_error() { echo -e "${RED}[ERROR]${NC} $1"; }
+
+# 检查是否为 root 用户
+check_root() {
+    if [ "$EUID" -ne 0 ]; then
+        log_error "请使用 root 用户运行此脚本"
+        log_info "使用: sudo bash deploy-server.sh"
+        exit 1
+    fi
+}
+
+# 检查系统版本
+check_system() {
+    if [ -f /etc/os-release ]; then
+        . /etc/os-release
+        OS=$ID
+        VER=$VERSION_ID
+        log_info "检测到系统: $PRETTY_NAME"
+    else
+        log_error "无法检测系统版本"
+        exit 1
+    fi
+    
+    case $OS in
+        ubuntu|debian)
+            log_info "系统兼容，继续安装..."
+            ;;
+        *)
+            log_warn "此脚本针对 Ubuntu/Debian 优化，其他系统可能存在兼容问题"
+            read -p "是否继续? (y/n): " confirm
+            [ "$confirm" != "y" ] && exit 1
+            ;;
+    esac
+}
+
+# 获取服务器IP
+get_server_ip() {
+    SERVER_IP=$(curl -s ifconfig.me 2>/dev/null || curl -s ip.sb 2>/dev/null || hostname -I | awk '{print $1}')
+    echo $SERVER_IP
+}
+
+# 交互式配置
+interactive_config() {
+    echo ""
+    echo -e "${BLUE}=========================================="
+    echo "       影视 CMS V2 一键部署脚本"
+    echo "==========================================${NC}"
+    echo ""
+    
+    # 获取域名/IP
+    DEFAULT_IP=$(get_server_ip)
+    read -p "请输入域名或IP地址 [默认: ${DEFAULT_IP}]: " input_domain
+    DOMAIN=${input_domain:-$DEFAULT_IP}
+    
+    # MySQL 密码
+    DEFAULT_MYSQL_PASS="MovieCMS@$(openssl rand -hex 4)"
+    read -p "请输入 MySQL root 密码 [默认: ${DEFAULT_MYSQL_PASS}]: " input_mysql_pass
+    MYSQL_ROOT_PASSWORD=${input_mysql_pass:-$DEFAULT_MYSQL_PASS}
+    
+    # Redis 密码
+    DEFAULT_REDIS_PASS="Redis@$(openssl rand -hex 4)"
+    read -p "请输入 Redis 密码 [默认: ${DEFAULT_REDIS_PASS}]: " input_redis_pass
+    REDIS_PASSWORD=${input_redis_pass:-$DEFAULT_REDIS_PASS}
+    
+    # 数据库名称
+    read -p "请输入数据库名称 [默认: chunyu-cms-v2]: " input_db_name
+    MYSQL_DATABASE=${input_db_name:-"chunyu-cms-v2"}
+    
+    # JWT Secret
+    JWT_SECRET="movie-cms-$(openssl rand -hex 16)"
+    
+    # 确认配置
+    echo ""
+    echo -e "${YELLOW}========== 配置确认 ==========${NC}"
+    echo -e "域名/IP:      ${GREEN}${DOMAIN}${NC}"
+    echo -e "MySQL 密码:   ${GREEN}${MYSQL_ROOT_PASSWORD}${NC}"
+    echo -e "Redis 密码:   ${GREEN}${REDIS_PASSWORD}${NC}"
+    echo -e "数据库名称:   ${GREEN}${MYSQL_DATABASE}${NC}"
+    echo -e "${YELLOW}===============================${NC}"
+    echo ""
+    
+    read -p "确认以上配置? (y/n): " confirm
+    if [ "$confirm" != "y" ]; then
+        log_info "已取消安装"
+        exit 0
+    fi
+}
+
+# 保存配置到文件
+save_config() {
+    CONFIG_FILE="/root/.movie-cms-config"
+    cat > $CONFIG_FILE << EOF
+# Movie CMS 配置信息 - 请妥善保管
+# 生成时间: $(date)
+
+DOMAIN=${DOMAIN}
+MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+MYSQL_DATABASE=${MYSQL_DATABASE}
+REDIS_PASSWORD=${REDIS_PASSWORD}
+JWT_SECRET=${JWT_SECRET}
+
+# 访问地址
+用户端: http://${DOMAIN}
+管理端: http://${DOMAIN}/admin
+管理员账号: admin
+管理员密码: admin123
+EOF
+    chmod 600 $CONFIG_FILE
+    log_info "配置已保存到 ${CONFIG_FILE}"
+}
+
+# 主程序开始
+check_root
+check_system
+interactive_config
+save_config
+
+echo ""
+echo -e "${GREEN}=========================================="
+echo "开始部署影视 CMS V2"
+echo "==========================================${NC}"
+echo ""
 
 # ==========================================
 # 1. 系统更新和基础软件安装
 # ==========================================
-echo -e "${GREEN}[1/8] 更新系统并安装基础软件...${NC}"
+log_info "[1/8] 更新系统并安装基础软件..."
 
+export DEBIAN_FRONTEND=noninteractive
 apt update && apt upgrade -y
-apt install -y curl wget git nginx unzip software-properties-common
+apt install -y curl wget git nginx unzip software-properties-common \
+    build-essential libssl-dev ca-certificates gnupg lsb-release
 
 # ==========================================
 # 2. 安装 Node.js 20.x
 # ==========================================
-echo -e "${GREEN}[2/8] 安装 Node.js 20.x...${NC}"
+log_info "[2/8] 安装 Node.js 20.x..."
 
-curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
-apt install -y nodejs
+# 检查是否已安装 Node.js
+if command -v node &> /dev/null; then
+    NODE_VER=$(node -v)
+    log_warn "Node.js 已安装: ${NODE_VER}"
+else
+    curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+    apt install -y nodejs
+fi
 
-# 安装 pnpm
+# 安装 pnpm 和 pm2
 npm install -g pnpm pm2
 
-echo "Node.js 版本: $(node -v)"
-echo "pnpm 版本: $(pnpm -v)"
-echo "pm2 版本: $(pm2 -v)"
+log_info "Node.js 版本: $(node -v)"
+log_info "pnpm 版本: $(pnpm -v)"
+log_info "pm2 版本: $(pm2 -v)"
 
 # ==========================================
 # 3. 安装 MySQL 8.0
 # ==========================================
-echo -e "${GREEN}[3/8] 安装 MySQL 8.0...${NC}"
+log_info "[3/8] 安装 MySQL 8.0..."
 
-apt install -y mysql-server
+# 检查是否已安装 MySQL
+if command -v mysql &> /dev/null; then
+    log_warn "MySQL 已安装，跳过安装步骤"
+else
+    # 预设 MySQL root 密码，避免交互式安装
+    debconf-set-selections <<< "mysql-server mysql-server/root_password password ${MYSQL_ROOT_PASSWORD}"
+    debconf-set-selections <<< "mysql-server mysql-server/root_password_again password ${MYSQL_ROOT_PASSWORD}"
+    
+    apt install -y mysql-server
+fi
 
 # 启动 MySQL
 systemctl start mysql
 systemctl enable mysql
 
+# 等待 MySQL 启动
+sleep 3
+
 # 设置 MySQL root 密码和创建数据库
-mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';"
+mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';" 2>/dev/null || true
 mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "CREATE DATABASE IF NOT EXISTS \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
 mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "FLUSH PRIVILEGES;"
 
-echo "MySQL 安装完成"
+log_info "MySQL 安装完成"
 
 # ==========================================
 # 4. 安装 Redis
 # ==========================================
-echo -e "${GREEN}[4/8] 安装 Redis...${NC}"
+log_info "[4/8] 安装 Redis..."
 
-apt install -y redis-server
+# 检查是否已安装 Redis
+if command -v redis-server &> /dev/null; then
+    log_warn "Redis 已安装，更新配置..."
+else
+    apt install -y redis-server
+fi
 
 # 配置 Redis 密码
-sed -i "s/# requirepass foobared/requirepass ${REDIS_PASSWORD}/" /etc/redis/redis.conf
-sed -i "s/bind 127.0.0.1 ::1/bind 127.0.0.1/" /etc/redis/redis.conf
+sed -i "s/^# requirepass.*/requirepass ${REDIS_PASSWORD}/" /etc/redis/redis.conf
+sed -i "s/^requirepass.*/requirepass ${REDIS_PASSWORD}/" /etc/redis/redis.conf
+sed -i "s/^bind 127.0.0.1.*/bind 127.0.0.1/" /etc/redis/redis.conf
 
 # 重启 Redis
 systemctl restart redis
 systemctl enable redis
 
-echo "Redis 安装完成"
+log_info "Redis 安装完成"
 
 # ==========================================
 # 5. 克隆项目代码
 # ==========================================
-echo -e "${GREEN}[5/8] 克隆项目代码...${NC}"
+log_info "[5/8] 克隆项目代码..."
+
+# 项目目录
+PROJECT_DIR="/var/www/movieforvideandmu3uinclud"
 
 # 创建项目目录
 mkdir -p /var/www
 cd /var/www
 
-# 如果目录已存在，先删除
+# 如果目录已存在，备份后删除
 if [ -d "movieforvideandmu3uinclud" ]; then
+    log_warn "项目目录已存在，备份旧文件..."
+    BACKUP_DIR="/var/www/movie-cms-backup-$(date +%Y%m%d%H%M%S)"
+    
+    # 备份上传文件和配置
+    if [ -d "movieforvideandmu3uinclud/chunyu-cms-web/uploads" ]; then
+        mkdir -p $BACKUP_DIR
+        cp -r movieforvideandmu3uinclud/chunyu-cms-web/uploads $BACKUP_DIR/ 2>/dev/null || true
+        cp movieforvideandmu3uinclud/chunyu-cms-web/.env $BACKUP_DIR/ 2>/dev/null || true
+        log_info "已备份到: ${BACKUP_DIR}"
+    fi
+    
     rm -rf movieforvideandmu3uinclud
 fi
 
 # 克隆项目
+log_info "正在从 GitHub 克隆项目..."
 git clone https://github.com/yeluoge26/movieforvideandmu3uinclud.git
+
 cd movieforvideandmu3uinclud
 
-echo "项目克隆完成"
+# 如果有备份，恢复上传文件
+if [ -d "$BACKUP_DIR/uploads" ]; then
+    log_info "恢复上传文件..."
+    cp -r $BACKUP_DIR/uploads chunyu-cms-web/ 2>/dev/null || true
+fi
+
+log_info "项目克隆完成"
 
 # ==========================================
 # 6. 配置和构建项目
 # ==========================================
-echo -e "${GREEN}[6/8] 配置和构建项目...${NC}"
+log_info "[6/8] 配置和构建项目..."
 
 # 创建 .env 文件
 cat > chunyu-cms-web/.env << EOF
@@ -152,39 +317,44 @@ ANTI_DEBUG_ENABLED=false
 EOF
 
 # 导入数据库
-echo "导入数据库..."
+log_info "导入数据库..."
 mysql -u root -p"${MYSQL_ROOT_PASSWORD}" ${MYSQL_DATABASE} < chunyu-cms-web/chunyu-cms-v2.sql
 
 # 安装依赖并构建 Web
-echo "安装 Web 依赖..."
+log_info "安装 Web 依赖 (可能需要几分钟)..."
 cd chunyu-cms-web
-pnpm install
+pnpm install --frozen-lockfile 2>/dev/null || pnpm install
 
-echo "构建 Web..."
+log_info "构建 Web..."
 pnpm build
 
 # 安装依赖并构建 Admin
-echo "安装 Admin 依赖..."
+log_info "安装 Admin 依赖..."
 cd ../chunyu-cms-admin
-pnpm install
+pnpm install --frozen-lockfile 2>/dev/null || pnpm install
 
-echo "构建 Admin..."
+log_info "构建 Admin..."
 pnpm build:prod
 
 cd ..
 
-echo "项目构建完成"
+log_info "项目构建完成"
 
 # ==========================================
 # 7. 配置 PM2 和 Nginx
 # ==========================================
-echo -e "${GREEN}[7/8] 配置 PM2 和 Nginx...${NC}"
+log_info "[7/8] 配置 PM2 和 Nginx..."
+
+# 停止旧的 PM2 进程
+pm2 delete all 2>/dev/null || true
 
 # 启动 PM2
 cd chunyu-cms-web
-pm2 start pm2.config.cjs
+pm2 start pm2.config.cjs --name "movie-cms"
 pm2 save
-pm2 startup
+
+# 配置 PM2 开机自启
+pm2 startup systemd -u root --hp /root 2>/dev/null || pm2 startup
 
 cd ..
 
@@ -247,41 +417,59 @@ echo "Nginx 配置完成"
 # ==========================================
 # 8. 配置防火墙
 # ==========================================
-echo -e "${GREEN}[8/8] 配置防火墙...${NC}"
+log_info "[8/8] 配置防火墙..."
 
 # 安装并配置 ufw
 apt install -y ufw
 ufw allow ssh
 ufw allow http
 ufw allow https
+ufw allow 3000  # Node.js 端口
 ufw --force enable
 
-echo "防火墙配置完成"
+log_info "防火墙配置完成"
 
 # ==========================================
 # 部署完成
 # ==========================================
 echo ""
-echo -e "${GREEN}=========================================="
-echo "部署完成！"
-echo "==========================================${NC}"
+echo -e "${GREEN}╔══════════════════════════════════════════════════════════════╗${NC}"
+echo -e "${GREEN}║                                                              ║${NC}"
+echo -e "${GREEN}║              🎉 部署完成！Deployment Complete! 🎉            ║${NC}"
+echo -e "${GREEN}║                                                              ║${NC}"
+echo -e "${GREEN}╚══════════════════════════════════════════════════════════════╝${NC}"
 echo ""
-echo -e "用户端访问地址: ${YELLOW}http://${DOMAIN}${NC}"
-echo -e "管理端访问地址: ${YELLOW}http://${DOMAIN}/admin${NC}"
+echo -e "${BLUE}━━━━━━━━━━━━━━━━ 访问地址 ━━━━━━━━━━━━━━━━${NC}"
+echo -e "  用户端:  ${GREEN}http://${DOMAIN}${NC}"
+echo -e "  管理端:  ${GREEN}http://${DOMAIN}/admin${NC}"
 echo ""
-echo -e "管理员账号: ${YELLOW}admin${NC}"
-echo -e "管理员密码: ${YELLOW}admin123${NC}"
+echo -e "${BLUE}━━━━━━━━━━━━━━━━ 登录信息 ━━━━━━━━━━━━━━━━${NC}"
+echo -e "  管理员账号:  ${YELLOW}admin${NC}"
+echo -e "  管理员密码:  ${YELLOW}admin123${NC}"
 echo ""
-echo -e "${RED}重要提示:${NC}"
-echo "1. 请立即登录管理端修改默认密码！"
-echo "2. 请保存以下配置信息："
+echo -e "${BLUE}━━━━━━━━━━━━━━━━ 数据库配置 ━━━━━━━━━━━━━━━━${NC}"
+echo -e "  MySQL 密码:  ${YELLOW}${MYSQL_ROOT_PASSWORD}${NC}"
+echo -e "  Redis 密码:  ${YELLOW}${REDIS_PASSWORD}${NC}"
+echo -e "  数据库名称:  ${YELLOW}${MYSQL_DATABASE}${NC}"
 echo ""
-echo -e "   MySQL 密码: ${YELLOW}${MYSQL_ROOT_PASSWORD}${NC}"
-echo -e "   Redis 密码: ${YELLOW}${REDIS_PASSWORD}${NC}"
-echo -e "   JWT Secret: ${YELLOW}${JWT_SECRET}${NC}"
+echo -e "${BLUE}━━━━━━━━━━━━━━━━ 常用命令 ━━━━━━━━━━━━━━━━${NC}"
+echo -e "  查看应用状态:  ${YELLOW}pm2 status${NC}"
+echo -e "  查看应用日志:  ${YELLOW}pm2 logs${NC}"
+echo -e "  重启应用:      ${YELLOW}pm2 restart all${NC}"
+echo -e "  重启 Nginx:    ${YELLOW}systemctl restart nginx${NC}"
 echo ""
-echo "3. 配置文件位置: /var/www/movieforvideandmu3uinclud/chunyu-cms-web/.env"
-echo "4. 查看应用状态: pm2 status"
-echo "5. 查看应用日志: pm2 logs"
+echo -e "${BLUE}━━━━━━━━━━━━━━━━ 文件位置 ━━━━━━━━━━━━━━━━${NC}"
+echo -e "  项目目录:  ${YELLOW}/var/www/movieforvideandmu3uinclud${NC}"
+echo -e "  配置文件:  ${YELLOW}/var/www/movieforvideandmu3uinclud/chunyu-cms-web/.env${NC}"
+echo -e "  上传目录:  ${YELLOW}/var/www/movieforvideandmu3uinclud/chunyu-cms-web/uploads${NC}"
+echo -e "  配置备份:  ${YELLOW}/root/.movie-cms-config${NC}"
 echo ""
-echo -e "${GREEN}部署脚本执行完毕！${NC}"
+echo -e "${RED}⚠️  重要提示:${NC}"
+echo -e "  1. 请立即登录管理端修改默认密码！"
+echo -e "  2. 配置信息已保存到 /root/.movie-cms-config"
+echo -e "  3. 建议配置 HTTPS (可使用 certbot)"
+echo ""
+echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+echo -e "${GREEN}        部署脚本执行完毕！祝您使用愉快！        ${NC}"
+echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+echo ""
