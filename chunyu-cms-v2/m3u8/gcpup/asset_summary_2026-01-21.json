@@ -1,0 +1,4028 @@
+{
+  "08a1175a72c9904a0fa5dc548dd84455728e1ffb": {
+    "asset_id": "08a1175a72c9904a0fa5dc548dd84455728e1ffb",
+    "uploaded_at": "2026-01-21 17:36:00",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173152.m3u8",
+        "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/playlist_20260121_173152.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/playlist_20260121_173152.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00000.ts",
+          "size_mb": 2.8
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00001.ts",
+          "size_mb": 1.53
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00002.ts",
+          "size_mb": 1.0
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00003.ts",
+          "size_mb": 2.1
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00004.ts",
+          "size_mb": 1.89
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00005.ts",
+          "size_mb": 3.41
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00006.ts",
+          "size_mb": 1.1
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00007.ts",
+          "size_mb": 1.96
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00008.ts",
+          "size_mb": 1.8
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00009.ts",
+          "size_mb": 1.79
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00010.ts",
+          "size_mb": 3.59
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00011.ts",
+          "size_mb": 2.28
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00012.ts",
+          "size_mb": 1.78
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00013.ts",
+          "size_mb": 2.24
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/seg_00014.ts",
+          "size_mb": 1.81
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/cover.jpg",
+        "size_mb": 0.12
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/08a1175a72c9904a0fa5dc548dd84455728e1ffb/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 31.2,
+    "file_count": 20
+  },
+  "0c0711c6a6710a73d4b51d0e2132cee57b86d328": {
+    "asset_id": "0c0711c6a6710a73d4b51d0e2132cee57b86d328",
+    "uploaded_at": "2026-01-21 17:36:31",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173157.m3u8",
+        "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/playlist_20260121_173157.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/playlist_20260121_173157.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00000.ts",
+          "size_mb": 3.57
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00001.ts",
+          "size_mb": 1.6
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00002.ts",
+          "size_mb": 1.69
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00003.ts",
+          "size_mb": 1.61
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00004.ts",
+          "size_mb": 1.87
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00005.ts",
+          "size_mb": 3.51
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00006.ts",
+          "size_mb": 1.58
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00007.ts",
+          "size_mb": 1.6
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00008.ts",
+          "size_mb": 1.74
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00009.ts",
+          "size_mb": 1.76
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00010.ts",
+          "size_mb": 3.61
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00011.ts",
+          "size_mb": 1.94
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00012.ts",
+          "size_mb": 1.69
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00013.ts",
+          "size_mb": 1.53
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/seg_00014.ts",
+          "size_mb": 1.33
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/cover.jpg",
+        "size_mb": 0.18
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0c0711c6a6710a73d4b51d0e2132cee57b86d328/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 30.810000000000002,
+    "file_count": 20
+  },
+  "0cdca195e24a3bf6dfeb7144416291ed4ee45388": {
+    "asset_id": "0cdca195e24a3bf6dfeb7144416291ed4ee45388",
+    "uploaded_at": "2026-01-21 17:36:59",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173202.m3u8",
+        "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/playlist_20260121_173202.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/playlist_20260121_173202.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00000.ts",
+          "size_mb": 1.98
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00001.ts",
+          "size_mb": 2.19
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00002.ts",
+          "size_mb": 1.69
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00003.ts",
+          "size_mb": 2.42
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00004.ts",
+          "size_mb": 1.81
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00005.ts",
+          "size_mb": 2.65
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00006.ts",
+          "size_mb": 1.09
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00007.ts",
+          "size_mb": 0.96
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00008.ts",
+          "size_mb": 1.29
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00009.ts",
+          "size_mb": 1.69
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00010.ts",
+          "size_mb": 3.19
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00011.ts",
+          "size_mb": 1.32
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00012.ts",
+          "size_mb": 1.13
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00013.ts",
+          "size_mb": 1.75
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00014.ts",
+          "size_mb": 1.52
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/seg_00015.ts",
+          "size_mb": 0.84
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/cover.jpg",
+        "size_mb": 0.13
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0cdca195e24a3bf6dfeb7144416291ed4ee45388/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 27.650000000000002,
+    "file_count": 21
+  },
+  "0e7ca2f44b003242d667038828b864e63edb7dee": {
+    "asset_id": "0e7ca2f44b003242d667038828b864e63edb7dee",
+    "uploaded_at": "2026-01-21 17:37:30",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173201.m3u8",
+        "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/playlist_20260121_173201.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/playlist_20260121_173201.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00000.ts",
+          "size_mb": 2.62
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00001.ts",
+          "size_mb": 1.56
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00002.ts",
+          "size_mb": 1.51
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00003.ts",
+          "size_mb": 1.42
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00004.ts",
+          "size_mb": 1.66
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00005.ts",
+          "size_mb": 3.11
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00006.ts",
+          "size_mb": 1.87
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00007.ts",
+          "size_mb": 1.57
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00008.ts",
+          "size_mb": 1.73
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00009.ts",
+          "size_mb": 1.39
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/seg_00010.ts",
+          "size_mb": 3.06
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/cover.jpg",
+        "size_mb": 0.12
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/0e7ca2f44b003242d667038828b864e63edb7dee/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0e7ca2f44b003242d667038828b864e63edb7dee/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 21.62,
+    "file_count": 16
+  },
+  "0f01f704d2d16699cc3d600e882d2bf3436285b9": {
+    "asset_id": "0f01f704d2d16699cc3d600e882d2bf3436285b9",
+    "uploaded_at": "2026-01-21 17:37:49",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173221.m3u8",
+        "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/playlist_20260121_173221.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/playlist_20260121_173221.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00000.ts",
+          "size_mb": 2.16
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00001.ts",
+          "size_mb": 1.04
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00002.ts",
+          "size_mb": 0.98
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00003.ts",
+          "size_mb": 1.08
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00004.ts",
+          "size_mb": 1.08
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00005.ts",
+          "size_mb": 2.26
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00006.ts",
+          "size_mb": 1.34
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00007.ts",
+          "size_mb": 1.09
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00008.ts",
+          "size_mb": 1.05
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00009.ts",
+          "size_mb": 1.22
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00010.ts",
+          "size_mb": 2.2
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00011.ts",
+          "size_mb": 1.09
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00012.ts",
+          "size_mb": 1.03
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/seg_00013.ts",
+          "size_mb": 0.78
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/cover.jpg",
+        "size_mb": 0.14
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/0f01f704d2d16699cc3d600e882d2bf3436285b9/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 18.540000000000003,
+    "file_count": 19
+  },
+  "11bbe5adf4daf309eb4212d3e53f620460738610": {
+    "asset_id": "11bbe5adf4daf309eb4212d3e53f620460738610",
+    "uploaded_at": "2026-01-21 17:38:13",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173156.m3u8",
+        "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/playlist_20260121_173156.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/playlist_20260121_173156.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00000.ts",
+          "size_mb": 2.71
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00001.ts",
+          "size_mb": 1.55
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00002.ts",
+          "size_mb": 1.43
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00003.ts",
+          "size_mb": 1.4
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00004.ts",
+          "size_mb": 1.68
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00005.ts",
+          "size_mb": 3.15
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00006.ts",
+          "size_mb": 1.49
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00007.ts",
+          "size_mb": 1.41
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00008.ts",
+          "size_mb": 1.48
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00009.ts",
+          "size_mb": 1.61
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00010.ts",
+          "size_mb": 3.29
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00011.ts",
+          "size_mb": 2.07
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00012.ts",
+          "size_mb": 1.19
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00013.ts",
+          "size_mb": 1.21
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00014.ts",
+          "size_mb": 0.86
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/seg_00015.ts",
+          "size_mb": 0.08
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/cover.jpg",
+        "size_mb": 0.11
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/11bbe5adf4daf309eb4212d3e53f620460738610/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11bbe5adf4daf309eb4212d3e53f620460738610/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 26.72,
+    "file_count": 21
+  },
+  "11f104a45e242a4fc739d304577bc68f7a936a94": {
+    "asset_id": "11f104a45e242a4fc739d304577bc68f7a936a94",
+    "uploaded_at": "2026-01-21 17:38:38",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173153.m3u8",
+        "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/playlist_20260121_173153.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/playlist_20260121_173153.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00000.ts",
+          "size_mb": 3.64
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00001.ts",
+          "size_mb": 1.7
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00002.ts",
+          "size_mb": 1.62
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00003.ts",
+          "size_mb": 1.97
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00004.ts",
+          "size_mb": 1.67
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00005.ts",
+          "size_mb": 3.41
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00006.ts",
+          "size_mb": 1.5
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00007.ts",
+          "size_mb": 1.92
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00008.ts",
+          "size_mb": 1.77
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00009.ts",
+          "size_mb": 1.79
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/seg_00010.ts",
+          "size_mb": 2.69
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/cover.jpg",
+        "size_mb": 0.11
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/11f104a45e242a4fc739d304577bc68f7a936a94/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/11f104a45e242a4fc739d304577bc68f7a936a94/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 23.79,
+    "file_count": 16
+  },
+  "146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4": {
+    "asset_id": "146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4",
+    "uploaded_at": "2026-01-21 17:38:59",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173148.m3u8",
+        "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/playlist_20260121_173148.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/playlist_20260121_173148.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00000.ts",
+          "size_mb": 1.91
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00001.ts",
+          "size_mb": 1.5
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00002.ts",
+          "size_mb": 1.67
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00003.ts",
+          "size_mb": 1.44
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00004.ts",
+          "size_mb": 1.19
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00005.ts",
+          "size_mb": 2.69
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00006.ts",
+          "size_mb": 1.38
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00007.ts",
+          "size_mb": 1.27
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00008.ts",
+          "size_mb": 1.75
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00009.ts",
+          "size_mb": 1.53
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00010.ts",
+          "size_mb": 2.74
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00011.ts",
+          "size_mb": 1.31
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00012.ts",
+          "size_mb": 1.64
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00013.ts",
+          "size_mb": 1.71
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00014.ts",
+          "size_mb": 1.56
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00015.ts",
+          "size_mb": 2.95
+        },
+        {
+          "filename": "seg_00016.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00016.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00016.ts",
+          "size_mb": 1.44
+        },
+        {
+          "filename": "seg_00017.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00017.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00017.ts",
+          "size_mb": 1.22
+        },
+        {
+          "filename": "seg_00018.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00018.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00018.ts",
+          "size_mb": 1.51
+        },
+        {
+          "filename": "seg_00019.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00019.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00019.ts",
+          "size_mb": 1.38
+        },
+        {
+          "filename": "seg_00020.ts",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00020.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/seg_00020.ts",
+          "size_mb": 0.19
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/cover.jpg",
+        "size_mb": 0.18
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/146b1ed0daeff6dad5d3cc8a7d02b78a77bfa0e4/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 34.16,
+    "file_count": 26
+  },
+  "163e35079d47e82f662db172ff682d153c612202": {
+    "asset_id": "163e35079d47e82f662db172ff682d153c612202",
+    "uploaded_at": "2026-01-21 17:39:32",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173201.m3u8",
+        "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/playlist_20260121_173201.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/playlist_20260121_173201.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00000.ts",
+          "size_mb": 1.92
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00001.ts",
+          "size_mb": 1.38
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00002.ts",
+          "size_mb": 1.29
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00003.ts",
+          "size_mb": 1.45
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00004.ts",
+          "size_mb": 1.34
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00005.ts",
+          "size_mb": 2.82
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00006.ts",
+          "size_mb": 0.92
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00007.ts",
+          "size_mb": 1.28
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00008.ts",
+          "size_mb": 1.21
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00009.ts",
+          "size_mb": 1.29
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00010.ts",
+          "size_mb": 3.34
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00011.ts",
+          "size_mb": 1.47
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00012.ts",
+          "size_mb": 1.05
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00013.ts",
+          "size_mb": 1.74
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00014.ts",
+          "size_mb": 1.06
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00015.ts",
+          "size_mb": 2.34
+        },
+        {
+          "filename": "seg_00016.ts",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/seg_00016.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/seg_00016.ts",
+          "size_mb": 0.48
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/cover.jpg",
+        "size_mb": 0.16
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/163e35079d47e82f662db172ff682d153c612202/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/163e35079d47e82f662db172ff682d153c612202/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 26.539999999999996,
+    "file_count": 22
+  },
+  "1883861f2e3ad8000b286a851a62834c57d8ddfa": {
+    "asset_id": "1883861f2e3ad8000b286a851a62834c57d8ddfa",
+    "uploaded_at": "2026-01-21 17:39:59",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173224.m3u8",
+        "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/playlist_20260121_173224.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/playlist_20260121_173224.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00000.ts",
+          "size_mb": 2.12
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00001.ts",
+          "size_mb": 1.31
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00002.ts",
+          "size_mb": 1.57
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00003.ts",
+          "size_mb": 1.36
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00004.ts",
+          "size_mb": 1.56
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00005.ts",
+          "size_mb": 3.11
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00006.ts",
+          "size_mb": 1.69
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00007.ts",
+          "size_mb": 1.68
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00008.ts",
+          "size_mb": 1.14
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00009.ts",
+          "size_mb": 1.33
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00010.ts",
+          "size_mb": 2.95
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/seg_00011.ts",
+          "size_mb": 0.86
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/cover.jpg",
+        "size_mb": 0.08
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/1883861f2e3ad8000b286a851a62834c57d8ddfa/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 20.759999999999998,
+    "file_count": 17
+  },
+  "223d5b66d1448fe79ca00904e2aaf243401a22b8": {
+    "asset_id": "223d5b66d1448fe79ca00904e2aaf243401a22b8",
+    "uploaded_at": "2026-01-21 17:40:17",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173153.m3u8",
+        "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/playlist_20260121_173153.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/playlist_20260121_173153.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00000.ts",
+          "size_mb": 2.81
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00001.ts",
+          "size_mb": 1.38
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00002.ts",
+          "size_mb": 0.95
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00003.ts",
+          "size_mb": 2.26
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00004.ts",
+          "size_mb": 1.87
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00005.ts",
+          "size_mb": 3.44
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00006.ts",
+          "size_mb": 0.96
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00007.ts",
+          "size_mb": 2.02
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00008.ts",
+          "size_mb": 1.4
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00009.ts",
+          "size_mb": 1.73
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00010.ts",
+          "size_mb": 4.03
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00011.ts",
+          "size_mb": 2.13
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00012.ts",
+          "size_mb": 1.46
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00013.ts",
+          "size_mb": 2.15
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00014.ts",
+          "size_mb": 2.17
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/seg_00015.ts",
+          "size_mb": 0.32
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/cover.jpg",
+        "size_mb": 0.27
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/223d5b66d1448fe79ca00904e2aaf243401a22b8/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 31.349999999999994,
+    "file_count": 21
+  },
+  "30a0d47a860a75e59a7fca9b134f3e2d4fab1243": {
+    "asset_id": "30a0d47a860a75e59a7fca9b134f3e2d4fab1243",
+    "uploaded_at": "2026-01-21 17:40:42",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173154.m3u8",
+        "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/playlist_20260121_173154.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/playlist_20260121_173154.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00000.ts",
+          "size_mb": 2.83
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00001.ts",
+          "size_mb": 0.92
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00002.ts",
+          "size_mb": 1.46
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00003.ts",
+          "size_mb": 1.61
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00004.ts",
+          "size_mb": 1.09
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00005.ts",
+          "size_mb": 2.56
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00006.ts",
+          "size_mb": 1.41
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00007.ts",
+          "size_mb": 1.13
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00008.ts",
+          "size_mb": 1.13
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00009.ts",
+          "size_mb": 1.61
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00010.ts",
+          "size_mb": 2.68
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00011.ts",
+          "size_mb": 1.74
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00012.ts",
+          "size_mb": 1.6
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/seg_00013.ts",
+          "size_mb": 0.4
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/cover.jpg",
+        "size_mb": 0.1
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30a0d47a860a75e59a7fca9b134f3e2d4fab1243/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 22.27,
+    "file_count": 19
+  },
+  "30ba3699ec4b345efe66c1b704d68f2874279f57": {
+    "asset_id": "30ba3699ec4b345efe66c1b704d68f2874279f57",
+    "uploaded_at": "2026-01-21 17:41:03",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173203.m3u8",
+        "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/playlist_20260121_173203.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/playlist_20260121_173203.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00000.ts",
+          "size_mb": 2.22
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00001.ts",
+          "size_mb": 1.91
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00002.ts",
+          "size_mb": 1.75
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00003.ts",
+          "size_mb": 1.63
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00004.ts",
+          "size_mb": 1.81
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00005.ts",
+          "size_mb": 3.67
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00006.ts",
+          "size_mb": 2.01
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00007.ts",
+          "size_mb": 2.01
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00008.ts",
+          "size_mb": 1.64
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00009.ts",
+          "size_mb": 1.88
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00010.ts",
+          "size_mb": 3.16
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00011.ts",
+          "size_mb": 1.61
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00012.ts",
+          "size_mb": 1.51
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/seg_00013.ts",
+          "size_mb": 0.61
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/cover.jpg",
+        "size_mb": 0.11
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/30ba3699ec4b345efe66c1b704d68f2874279f57/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/30ba3699ec4b345efe66c1b704d68f2874279f57/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 27.529999999999998,
+    "file_count": 19
+  },
+  "363cf2911c10f2313af2226f905d00bc21dae470": {
+    "asset_id": "363cf2911c10f2313af2226f905d00bc21dae470",
+    "uploaded_at": "2026-01-21 17:41:26",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173151.m3u8",
+        "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/playlist_20260121_173151.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/playlist_20260121_173151.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00000.ts",
+          "size_mb": 3.89
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00001.ts",
+          "size_mb": 1.09
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00002.ts",
+          "size_mb": 1.23
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00003.ts",
+          "size_mb": 1.08
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00004.ts",
+          "size_mb": 1.43
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00005.ts",
+          "size_mb": 2.76
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00006.ts",
+          "size_mb": 1.68
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00007.ts",
+          "size_mb": 1.65
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00008.ts",
+          "size_mb": 0.94
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00009.ts",
+          "size_mb": 1.14
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00010.ts",
+          "size_mb": 2.28
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00011.ts",
+          "size_mb": 0.92
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/seg_00012.ts",
+          "size_mb": 0.09
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/cover.jpg",
+        "size_mb": 0.22
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/363cf2911c10f2313af2226f905d00bc21dae470/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/363cf2911c10f2313af2226f905d00bc21dae470/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 20.400000000000002,
+    "file_count": 18
+  },
+  "39f1e3f81ece6edd65dd8381186facf7223984c4": {
+    "asset_id": "39f1e3f81ece6edd65dd8381186facf7223984c4",
+    "uploaded_at": "2026-01-21 17:41:46",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173210.m3u8",
+        "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/playlist_20260121_173210.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/playlist_20260121_173210.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00000.ts",
+          "size_mb": 2.71
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00001.ts",
+          "size_mb": 1.74
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00002.ts",
+          "size_mb": 1.64
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00003.ts",
+          "size_mb": 1.52
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00004.ts",
+          "size_mb": 1.53
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00005.ts",
+          "size_mb": 2.93
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00006.ts",
+          "size_mb": 1.32
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00007.ts",
+          "size_mb": 1.62
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00008.ts",
+          "size_mb": 1.6
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00009.ts",
+          "size_mb": 1.72
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00010.ts",
+          "size_mb": 2.64
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00011.ts",
+          "size_mb": 1.4
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00012.ts",
+          "size_mb": 1.52
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00013.ts",
+          "size_mb": 1.38
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/seg_00014.ts",
+          "size_mb": 0.06
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/cover.jpg",
+        "size_mb": 0.21
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/39f1e3f81ece6edd65dd8381186facf7223984c4/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/39f1e3f81ece6edd65dd8381186facf7223984c4/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 25.539999999999996,
+    "file_count": 20
+  },
+  "3e3d4a359b23bf7c020eeb85f0683ae741258a39": {
+    "asset_id": "3e3d4a359b23bf7c020eeb85f0683ae741258a39",
+    "uploaded_at": "2026-01-21 17:42:08",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173224.m3u8",
+        "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/playlist_20260121_173224.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/playlist_20260121_173224.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00000.ts",
+          "size_mb": 2.9
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00001.ts",
+          "size_mb": 1.25
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00002.ts",
+          "size_mb": 1.51
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00003.ts",
+          "size_mb": 1.56
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00004.ts",
+          "size_mb": 1.81
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00005.ts",
+          "size_mb": 4.23
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00006.ts",
+          "size_mb": 1.76
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00007.ts",
+          "size_mb": 1.37
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00008.ts",
+          "size_mb": 1.57
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00009.ts",
+          "size_mb": 1.51
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00010.ts",
+          "size_mb": 3.32
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00011.ts",
+          "size_mb": 1.34
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00012.ts",
+          "size_mb": 1.34
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00013.ts",
+          "size_mb": 1.43
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00014.ts",
+          "size_mb": 1.2
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00015.ts",
+          "size_mb": 3.05
+        },
+        {
+          "filename": "seg_00016.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00016.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00016.ts",
+          "size_mb": 1.72
+        },
+        {
+          "filename": "seg_00017.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00017.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00017.ts",
+          "size_mb": 1.54
+        },
+        {
+          "filename": "seg_00018.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00018.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00018.ts",
+          "size_mb": 1.36
+        },
+        {
+          "filename": "seg_00019.ts",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00019.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/seg_00019.ts",
+          "size_mb": 0.16
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/cover.jpg",
+        "size_mb": 0.11
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3e3d4a359b23bf7c020eeb85f0683ae741258a39/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 36.04,
+    "file_count": 25
+  },
+  "3ec46eede6b52964ea7ef9e8a62344b9f008f297": {
+    "asset_id": "3ec46eede6b52964ea7ef9e8a62344b9f008f297",
+    "uploaded_at": "2026-01-21 17:42:37",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173200.m3u8",
+        "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/playlist_20260121_173200.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/playlist_20260121_173200.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00000.ts",
+          "size_mb": 2.44
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00001.ts",
+          "size_mb": 1.17
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00002.ts",
+          "size_mb": 0.98
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00003.ts",
+          "size_mb": 1.18
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00004.ts",
+          "size_mb": 1.27
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00005.ts",
+          "size_mb": 2.76
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00006.ts",
+          "size_mb": 1.19
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00007.ts",
+          "size_mb": 1.39
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00008.ts",
+          "size_mb": 1.26
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00009.ts",
+          "size_mb": 1.06
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00010.ts",
+          "size_mb": 2.67
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00011.ts",
+          "size_mb": 1.49
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00012.ts",
+          "size_mb": 1.16
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00013.ts",
+          "size_mb": 1.37
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00014.ts",
+          "size_mb": 1.3
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/seg_00015.ts",
+          "size_mb": 1.97
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/cover.jpg",
+        "size_mb": 0.14
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3ec46eede6b52964ea7ef9e8a62344b9f008f297/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 24.799999999999997,
+    "file_count": 21
+  },
+  "3fee21ca3deeee0b6a6167988eb06d31803f02b8": {
+    "asset_id": "3fee21ca3deeee0b6a6167988eb06d31803f02b8",
+    "uploaded_at": "2026-01-21 17:43:00",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173203.m3u8",
+        "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/playlist_20260121_173203.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/playlist_20260121_173203.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00000.ts",
+          "size_mb": 3.23
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00001.ts",
+          "size_mb": 1.44
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00002.ts",
+          "size_mb": 1.19
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00003.ts",
+          "size_mb": 1.6
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00004.ts",
+          "size_mb": 1.52
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00005.ts",
+          "size_mb": 2.63
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00006.ts",
+          "size_mb": 1.68
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00007.ts",
+          "size_mb": 1.77
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00008.ts",
+          "size_mb": 1.63
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00009.ts",
+          "size_mb": 1.44
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00010.ts",
+          "size_mb": 3.94
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00011.ts",
+          "size_mb": 1.49
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00012.ts",
+          "size_mb": 1.59
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00013.ts",
+          "size_mb": 1.42
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/seg_00014.ts",
+          "size_mb": 1.62
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/cover.jpg",
+        "size_mb": 0.11
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/3fee21ca3deeee0b6a6167988eb06d31803f02b8/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 28.3,
+    "file_count": 20
+  },
+  "42f1533bafd7bb8c9257edd729c647610bd81885": {
+    "asset_id": "42f1533bafd7bb8c9257edd729c647610bd81885",
+    "uploaded_at": "2026-01-21 17:43:23",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173209.m3u8",
+        "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/playlist_20260121_173209.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/playlist_20260121_173209.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00000.ts",
+          "size_mb": 2.71
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00001.ts",
+          "size_mb": 2.39
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00002.ts",
+          "size_mb": 1.37
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00003.ts",
+          "size_mb": 1.67
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00004.ts",
+          "size_mb": 1.55
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00005.ts",
+          "size_mb": 2.5
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00006.ts",
+          "size_mb": 1.49
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00007.ts",
+          "size_mb": 1.59
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00008.ts",
+          "size_mb": 1.79
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00009.ts",
+          "size_mb": 1.45
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/seg_00010.ts",
+          "size_mb": 2.6
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/cover.jpg",
+        "size_mb": 0.11
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/42f1533bafd7bb8c9257edd729c647610bd81885/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/42f1533bafd7bb8c9257edd729c647610bd81885/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 21.220000000000002,
+    "file_count": 16
+  },
+  "49ee2bb047b33d58a2be037f888549689fff66cf": {
+    "asset_id": "49ee2bb047b33d58a2be037f888549689fff66cf",
+    "uploaded_at": "2026-01-21 17:43:41",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173219.m3u8",
+        "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/playlist_20260121_173219.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/playlist_20260121_173219.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00000.ts",
+          "size_mb": 2.1
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00001.ts",
+          "size_mb": 1.15
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00002.ts",
+          "size_mb": 1.08
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00003.ts",
+          "size_mb": 1.49
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00004.ts",
+          "size_mb": 0.85
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00005.ts",
+          "size_mb": 2.42
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00006.ts",
+          "size_mb": 1.2
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00007.ts",
+          "size_mb": 1.13
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00008.ts",
+          "size_mb": 1.1
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00009.ts",
+          "size_mb": 1.13
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00010.ts",
+          "size_mb": 2.56
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00011.ts",
+          "size_mb": 1.07
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00012.ts",
+          "size_mb": 1.46
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00013.ts",
+          "size_mb": 1.33
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00014.ts",
+          "size_mb": 1.35
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/seg_00015.ts",
+          "size_mb": 0.94
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/cover.jpg",
+        "size_mb": 0.11
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/49ee2bb047b33d58a2be037f888549689fff66cf/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/49ee2bb047b33d58a2be037f888549689fff66cf/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 22.470000000000002,
+    "file_count": 21
+  },
+  "4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901": {
+    "asset_id": "4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901",
+    "uploaded_at": "2026-01-21 17:44:04",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173223.m3u8",
+        "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/playlist_20260121_173223.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/playlist_20260121_173223.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00000.ts",
+          "size_mb": 1.97
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00001.ts",
+          "size_mb": 1.49
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00002.ts",
+          "size_mb": 1.55
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00003.ts",
+          "size_mb": 1.29
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00004.ts",
+          "size_mb": 1.34
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00005.ts",
+          "size_mb": 2.92
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00006.ts",
+          "size_mb": 1.3
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00007.ts",
+          "size_mb": 1.51
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00008.ts",
+          "size_mb": 1.47
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00009.ts",
+          "size_mb": 1.24
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00010.ts",
+          "size_mb": 2.98
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00011.ts",
+          "size_mb": 1.18
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00012.ts",
+          "size_mb": 1.52
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00013.ts",
+          "size_mb": 1.37
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00014.ts",
+          "size_mb": 1.52
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00015.ts",
+          "size_mb": 2.71
+        },
+        {
+          "filename": "seg_00016.ts",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00016.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/seg_00016.ts",
+          "size_mb": 0.88
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/cover.jpg",
+        "size_mb": 0.12
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c6a3c0093fe0e7ffbe4d5ca8d964b89f987c901/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 28.36,
+    "file_count": 22
+  },
+  "4c8d3250f7b9e7c1b389e69e0533f11d818ee204": {
+    "asset_id": "4c8d3250f7b9e7c1b389e69e0533f11d818ee204",
+    "uploaded_at": "2026-01-21 17:44:28",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173151.m3u8",
+        "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/playlist_20260121_173151.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/playlist_20260121_173151.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00000.ts",
+          "size_mb": 3.06
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00001.ts",
+          "size_mb": 1.92
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00002.ts",
+          "size_mb": 1.59
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00003.ts",
+          "size_mb": 2.15
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00004.ts",
+          "size_mb": 1.4
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00005.ts",
+          "size_mb": 2.89
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00006.ts",
+          "size_mb": 1.84
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00007.ts",
+          "size_mb": 1.98
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00008.ts",
+          "size_mb": 1.77
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00009.ts",
+          "size_mb": 1.25
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00010.ts",
+          "size_mb": 3.74
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00011.ts",
+          "size_mb": 1.77
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00012.ts",
+          "size_mb": 2.01
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00013.ts",
+          "size_mb": 1.51
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/seg_00014.ts",
+          "size_mb": 1.02
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/cover.jpg",
+        "size_mb": 0.14
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4c8d3250f7b9e7c1b389e69e0533f11d818ee204/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 30.04,
+    "file_count": 20
+  },
+  "4d71032c332d3c27eb07c2122c43a8f2e9f9e867": {
+    "asset_id": "4d71032c332d3c27eb07c2122c43a8f2e9f9e867",
+    "uploaded_at": "2026-01-21 17:44:51",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173205.m3u8",
+        "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/playlist_20260121_173205.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/playlist_20260121_173205.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00000.ts",
+          "size_mb": 1.72
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00001.ts",
+          "size_mb": 1.05
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00002.ts",
+          "size_mb": 1.1
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00003.ts",
+          "size_mb": 0.9
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00004.ts",
+          "size_mb": 1.06
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00005.ts",
+          "size_mb": 2.37
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00006.ts",
+          "size_mb": 1.02
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00007.ts",
+          "size_mb": 1.14
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00008.ts",
+          "size_mb": 1.0
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00009.ts",
+          "size_mb": 1.09
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00010.ts",
+          "size_mb": 2.12
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00011.ts",
+          "size_mb": 1.08
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00012.ts",
+          "size_mb": 1.18
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00013.ts",
+          "size_mb": 1.08
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/seg_00014.ts",
+          "size_mb": 0.42
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/cover.jpg",
+        "size_mb": 0.09
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4d71032c332d3c27eb07c2122c43a8f2e9f9e867/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 18.42,
+    "file_count": 20
+  },
+  "4e34e040823a55fce5cd4175e2a2505431e7dfbb": {
+    "asset_id": "4e34e040823a55fce5cd4175e2a2505431e7dfbb",
+    "uploaded_at": "2026-01-21 17:45:12",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173218.m3u8",
+        "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/playlist_20260121_173218.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/playlist_20260121_173218.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00000.ts",
+          "size_mb": 3.01
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00001.ts",
+          "size_mb": 1.4
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00002.ts",
+          "size_mb": 2.02
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00003.ts",
+          "size_mb": 1.7
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00004.ts",
+          "size_mb": 1.6
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00005.ts",
+          "size_mb": 3.14
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00006.ts",
+          "size_mb": 1.74
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00007.ts",
+          "size_mb": 1.49
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00008.ts",
+          "size_mb": 1.7
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00009.ts",
+          "size_mb": 1.76
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00010.ts",
+          "size_mb": 3.19
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00011.ts",
+          "size_mb": 1.53
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00012.ts",
+          "size_mb": 2.08
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00013.ts",
+          "size_mb": 1.9
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00014.ts",
+          "size_mb": 2.05
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/seg_00015.ts",
+          "size_mb": 2.6
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/cover.jpg",
+        "size_mb": 0.1
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/4e34e040823a55fce5cd4175e2a2505431e7dfbb/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 33.01,
+    "file_count": 21
+  },
+  "5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb": {
+    "asset_id": "5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb",
+    "uploaded_at": "2026-01-21 17:45:37",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173208.m3u8",
+        "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/playlist_20260121_173208.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/playlist_20260121_173208.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00000.ts",
+          "size_mb": 2.36
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00001.ts",
+          "size_mb": 1.32
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00002.ts",
+          "size_mb": 0.98
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00003.ts",
+          "size_mb": 1.6
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00004.ts",
+          "size_mb": 1.12
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00005.ts",
+          "size_mb": 2.4
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00006.ts",
+          "size_mb": 1.59
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00007.ts",
+          "size_mb": 1.73
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00008.ts",
+          "size_mb": 1.35
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00009.ts",
+          "size_mb": 1.33
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00010.ts",
+          "size_mb": 3.06
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00011.ts",
+          "size_mb": 1.46
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00012.ts",
+          "size_mb": 1.27
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00013.ts",
+          "size_mb": 1.12
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00014.ts",
+          "size_mb": 0.99
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/seg_00015.ts",
+          "size_mb": 0.11
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/cover.jpg",
+        "size_mb": 0.17
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/5f28bbb34ce59f57cdc8fcae7a9ca0c948e389fb/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 23.959999999999997,
+    "file_count": 21
+  },
+  "6089cbe0beca281968ef88e6ab0c8e37c6178973": {
+    "asset_id": "6089cbe0beca281968ef88e6ab0c8e37c6178973",
+    "uploaded_at": "2026-01-21 17:46:00",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173209.m3u8",
+        "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/playlist_20260121_173209.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/playlist_20260121_173209.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00000.ts",
+          "size_mb": 3.3
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00001.ts",
+          "size_mb": 1.81
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00002.ts",
+          "size_mb": 1.73
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00003.ts",
+          "size_mb": 1.74
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00004.ts",
+          "size_mb": 1.84
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00005.ts",
+          "size_mb": 4.23
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00006.ts",
+          "size_mb": 1.69
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00007.ts",
+          "size_mb": 1.8
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00008.ts",
+          "size_mb": 1.77
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00009.ts",
+          "size_mb": 1.37
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00010.ts",
+          "size_mb": 3.23
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00011.ts",
+          "size_mb": 1.43
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00012.ts",
+          "size_mb": 1.57
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00013.ts",
+          "size_mb": 1.74
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00014.ts",
+          "size_mb": 1.23
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/seg_00015.ts",
+          "size_mb": 0.04
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/cover.jpg",
+        "size_mb": 0.18
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6089cbe0beca281968ef88e6ab0c8e37c6178973/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 30.7,
+    "file_count": 21
+  },
+  "6acf42124caf033ecbcd414633adaeb09d252406": {
+    "asset_id": "6acf42124caf033ecbcd414633adaeb09d252406",
+    "uploaded_at": "2026-01-21 17:46:23",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173150.m3u8",
+        "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/playlist_20260121_173150.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/playlist_20260121_173150.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00000.ts",
+          "size_mb": 1.94
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00001.ts",
+          "size_mb": 0.97
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00002.ts",
+          "size_mb": 1.01
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00003.ts",
+          "size_mb": 1.01
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00004.ts",
+          "size_mb": 1.36
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00005.ts",
+          "size_mb": 2.06
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00006.ts",
+          "size_mb": 0.86
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00007.ts",
+          "size_mb": 0.95
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00008.ts",
+          "size_mb": 1.3
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00009.ts",
+          "size_mb": 0.81
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00010.ts",
+          "size_mb": 1.88
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00011.ts",
+          "size_mb": 1.08
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00012.ts",
+          "size_mb": 1.14
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00013.ts",
+          "size_mb": 0.96
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/seg_00014.ts",
+          "size_mb": 0.49
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/cover.jpg",
+        "size_mb": 0.08
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/6acf42124caf033ecbcd414633adaeb09d252406/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/6acf42124caf033ecbcd414633adaeb09d252406/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 17.9,
+    "file_count": 20
+  },
+  "7044d92f4311e961b9cc2e061ddd03291ec0636f": {
+    "asset_id": "7044d92f4311e961b9cc2e061ddd03291ec0636f",
+    "uploaded_at": "2026-01-21 17:46:44",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173223.m3u8",
+        "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/playlist_20260121_173223.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/playlist_20260121_173223.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00000.ts",
+          "size_mb": 2.6
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00001.ts",
+          "size_mb": 1.32
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00002.ts",
+          "size_mb": 1.33
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00003.ts",
+          "size_mb": 1.4
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00004.ts",
+          "size_mb": 1.4
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00005.ts",
+          "size_mb": 2.55
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00006.ts",
+          "size_mb": 1.23
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00007.ts",
+          "size_mb": 1.22
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00008.ts",
+          "size_mb": 1.76
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00009.ts",
+          "size_mb": 1.17
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00010.ts",
+          "size_mb": 2.44
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00011.ts",
+          "size_mb": 1.22
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00012.ts",
+          "size_mb": 1.1
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00013.ts",
+          "size_mb": 1.32
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00014.ts",
+          "size_mb": 1.37
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/seg_00015.ts",
+          "size_mb": 2.45
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/cover.jpg",
+        "size_mb": 0.12
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/7044d92f4311e961b9cc2e061ddd03291ec0636f/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 26.000000000000004,
+    "file_count": 21
+  },
+  "76a6582fec827bdd7e549e427a37263c632fd362": {
+    "asset_id": "76a6582fec827bdd7e549e427a37263c632fd362",
+    "uploaded_at": "2026-01-21 17:47:07",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173200.m3u8",
+        "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/playlist_20260121_173200.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/playlist_20260121_173200.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00000.ts",
+          "size_mb": 1.94
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00001.ts",
+          "size_mb": 1.08
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00002.ts",
+          "size_mb": 1.07
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00003.ts",
+          "size_mb": 1.03
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00004.ts",
+          "size_mb": 1.64
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00005.ts",
+          "size_mb": 2.71
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00006.ts",
+          "size_mb": 1.55
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00007.ts",
+          "size_mb": 1.84
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00008.ts",
+          "size_mb": 0.93
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00009.ts",
+          "size_mb": 1.11
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00010.ts",
+          "size_mb": 2.65
+        },
+        {
+          "filename": "seg_00011.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00011.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00011.ts",
+          "size_mb": 1.37
+        },
+        {
+          "filename": "seg_00012.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00012.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00012.ts",
+          "size_mb": 1.45
+        },
+        {
+          "filename": "seg_00013.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00013.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00013.ts",
+          "size_mb": 1.37
+        },
+        {
+          "filename": "seg_00014.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00014.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00014.ts",
+          "size_mb": 1.2
+        },
+        {
+          "filename": "seg_00015.ts",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00015.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/seg_00015.ts",
+          "size_mb": 2.74
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/cover.jpg",
+        "size_mb": 0.08
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/76a6582fec827bdd7e549e427a37263c632fd362/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/76a6582fec827bdd7e549e427a37263c632fd362/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 25.759999999999998,
+    "file_count": 21
+  },
+  "77a4fea063b55dcc2cd5443a01fafb3013956b38": {
+    "asset_id": "77a4fea063b55dcc2cd5443a01fafb3013956b38",
+    "uploaded_at": "2026-01-21 17:47:30",
+    "files": {
+      "playlist": {
+        "filename": "playlist_20260121_173205.m3u8",
+        "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/playlist_20260121_173205.m3u8",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/playlist_20260121_173205.m3u8",
+        "size_mb": 0.0
+      },
+      "segments": [
+        {
+          "filename": "seg_00000.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00000.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00000.ts",
+          "size_mb": 3.11
+        },
+        {
+          "filename": "seg_00001.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00001.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00001.ts",
+          "size_mb": 1.47
+        },
+        {
+          "filename": "seg_00002.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00002.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00002.ts",
+          "size_mb": 1.53
+        },
+        {
+          "filename": "seg_00003.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00003.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00003.ts",
+          "size_mb": 1.7
+        },
+        {
+          "filename": "seg_00004.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00004.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00004.ts",
+          "size_mb": 1.48
+        },
+        {
+          "filename": "seg_00005.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00005.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00005.ts",
+          "size_mb": 2.99
+        },
+        {
+          "filename": "seg_00006.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00006.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00006.ts",
+          "size_mb": 1.68
+        },
+        {
+          "filename": "seg_00007.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00007.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00007.ts",
+          "size_mb": 1.47
+        },
+        {
+          "filename": "seg_00008.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00008.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00008.ts",
+          "size_mb": 1.33
+        },
+        {
+          "filename": "seg_00009.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00009.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00009.ts",
+          "size_mb": 1.51
+        },
+        {
+          "filename": "seg_00010.ts",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00010.ts",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/seg_00010.ts",
+          "size_mb": 1.57
+        }
+      ],
+      "cover": {
+        "filename": "cover.jpg",
+        "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/cover.jpg",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/cover.jpg",
+        "size_mb": 0.1
+      },
+      "metadata": {
+        "filename": "meta.json",
+        "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/meta.json",
+        "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/meta.json",
+        "size_mb": 0.0
+      },
+      "other": [
+        {
+          "filename": "source_filename.txt",
+          "file_type": "text",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/source_filename.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/source_filename.txt",
+          "size_mb": 0.0
+        },
+        {
+          "filename": "source_title.txt",
+          "file_type": "text",
+          "gcs_path": "hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/source_title.txt",
+          "gcs_url": "https://storage.googleapis.com/qinshortvide/hls/77a4fea063b55dcc2cd5443a01fafb3013956b38/source_title.txt",
+          "size_mb": 0.0
+        }
+      ]
+    },
+    "total_size_mb": 19.94,
+    "file_count": 16
+  }
+}

@@ -1,242 +1,371 @@
 <template>
-  <div class="pt-0 md:pt-45px">
-    <div class="banner">
-      <div class="banner__left"></div>
-      <div class="banner__right"></div>
-      <div class="banner__top"></div>
-      <div class="banner__bottom"></div>
-      <nuxt-link :to="btnLink" class="swiper-slide__play-btn">
-        <el-icon><ElIconCaretRight /></el-icon>
-        {{ $t('play') }}
-      </nuxt-link>
-      <div>
-        <swiper
-          loop
-          :autoplay="{
-            pauseOnMouseEnter: true,
-            delay: 15000
-          }"
-          :modules="[Pagination, Autoplay]"
-          :pagination="{ clickable: true }"
-          :slides-per-view="1"
-          :space-between="50"
-          @slide-change="onSlideChange"
-        >
-          <swiper-slide v-for="(item, index) in banner" :key="item.id">
-            <video
-              muted
-              :autoplay="index === 0"
-              preload="metadata"
-              :poster="item.img"
-              :src="item.videoUrl"
-              class="banner-video h-40vh w-full object-cover md:h-70vh"
-              alt=""
-            />
-          </swiper-slide>
-        </swiper>
+  <div>
+    <div
+      class="w-full h-100vh overflow-hidden relative"
+      @mousedown="handleMouseDown"
+      @mousemove="handleMouseMove"
+      @mouseup="handleMouseUp"
+      @mouseleave="handleMouseUp"
+      @wheel="handleWheel"
+      @touchstart="handleTouchStart"
+      @touchmove="handleTouchMove"
+      @touchend="handleTouchEnd"
+    >
+      <div
+        class="absolute top-15px left-15px z-11 flex justify-center items-center color-white cursor-pointer"
+        @click.stop="router.push({ path: '/trending/movie' })"
+        @touchstart.stop="router.push({ path: '/trending/movie' })"
+      >
+        <ElIconMenu class="w-24px" />
       </div>
-    </div>
-    <section v-for="item in columns" :key="item.id" class="p-x-12px">
-      <div class="flex justify-between items-center m-y-24px">
-        <a class="text-22px">{{ item.name }}</a>
-        <div class="genre flex gap-x-20px">
-          <nuxt-link
-            v-for="gen in item.genre"
-            :key="gen.genreId"
-            :to="`/column/${item.value}/show?gid=${gen.genreId}`"
-            class="hidden lg:inline-block"
-          >
-            {{ gen.name }}
-          </nuxt-link>
-          <nuxt-link :to="`/column/${item.value}`" class="color-#999 flex items-center">
-            {{ $t('more') }} <el-icon><ElIconArrowRight /></el-icon>
-          </nuxt-link>
+      <div class="videos-wrapper">
+        <div v-for="(movie, index) in movies" :key="movie.movieBasicsId" class="h-100vh relative">
+          <!-- 视频封面或视频 -->
+          <div class="h-full w-full relative">
+            <NuxtImg
+              v-if="movie.poster"
+              :src="movie.poster"
+              class="h-full w-full object-cover"
+              format="webp"
+              loading="lazy"
+              :alt="movie.title"
+            />
+            <div v-else class="h-full w-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
+              <span class="text-white text-24px">{{ movie.title }}</span>
+            </div>
+            <!-- 播放按钮覆盖层 - 只在非当前视频或没有海报时显示 -->
+            <div
+              v-if="index !== currentIndex"
+              class="absolute inset-0 flex items-center justify-center bg-black/30 cursor-pointer z-10"
+              @click="router.push(`/column/${movie.columnValue}/detail/${movie.movieBasicsId}`)"
+            >
+              <div class="w-80px h-80px border-rd-50% flex justify-center items-center bg-black/50 border-4 border-white/50">
+                <i class="i-el-caret-right color-white w-40px h-40px block"></i>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 视频信息 -->
+          <div class="video-info">
+            <h3 class="text-white text-20px font-bold mb-10px">{{ movie.title }}</h3>
+            <p v-if="movie.titleEn" class="text-white/80 text-14px mb-10px">{{ movie.titleEn }}</p>
+            <p v-if="movie.summary" class="text-white/70 text-12px line-clamp-3">{{ movie.summary }}</p>
+            <div v-if="movie.movieRate?.rateUserCount" class="flex items-center gap-8px mt-10px">
+              <span class="text-yellow text-16px font-bold">{{ movie.movieRate.rate.toFixed(1) }}</span>
+              <span class="text-white/60 text-12px">({{ movie.movieRate.rateUserCount }}人评价)</span>
+            </div>
+            <div v-if="movie.casts && movie.casts.length > 0" class="flex items-center gap-8px mt-10px flex-wrap">
+              <span class="text-white/60 text-12px">主演：</span>
+              <template v-for="(cast, idx) in movie.casts.slice(0, 3)" :key="idx">
+                <span class="text-white/80 text-12px">{{ cast.actor?.name }}</span>
+                <span v-if="idx < movie.casts.slice(0, 3).length - 1" class="text-white/40">/</span>
+              </template>
+            </div>
+            <nuxt-link
+              :to="`/column/${movie.columnValue}/detail/${movie.movieBasicsId}`"
+              class="inline-block mt-15px px-20px py-8px bg-white/20 backdrop-blur-10px rounded-20px text-white text-14px hover:bg-white/30 transition-all"
+            >
+              查看详情
+            </nuxt-link>
+          </div>
+          
+          <!-- 右侧操作按钮 -->
+          <div class="video-actions">
+            <div class="action-icon" @click.stop="handleLike(movie)">
+              <i
+                class="i-el-heart w-32px h-32px transition-all"
+                :class="[movie.isLiked ? '!color-#FE2C55' : 'color-white']"
+              ></i>
+              <span>{{ formatNumber(movie.likes || 0) }}</span>
+            </div>
+            <div class="action-icon" @click.stop="handleFavorite(movie)">
+              <i
+                class="i-el-star w-32px h-32px transition-all"
+                :class="[movie.isFavorited ? '!color-#FFD700' : 'color-white']"
+              ></i>
+              <span>收藏</span>
+            </div>
+            <div class="action-icon" @click.stop="handleShare(movie)">
+              <i class="i-el-share-alt w-28px h-28px color-white"></i>
+              <span>分享</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="video-list">
-        <ul>
-          <li v-for="v in item.movies" :key="v.movieBasicsId">
-            <nuxt-link :to="`/column/${v.columnValue}/detail/${v.movieBasicsId}`">
-              <div class="relative">
-                <NuxtImg size="200px" format="webp" loading="lazy" :alt="v?.title" :src="v.poster ?? ''" />
-                <span v-if="v.movieRate?.rateUserCount" class="rate"> {{ v.movieRate.rate.toFixed(1) }} </span>
-                <span v-if="v.isPay === 1" class="absolute right-0 top-0 z-10 text-12px md:text-14px p-x-8px bg-orange">
-                  {{ $t('pay') }}
-                </span>
-              </div>
-              <div class="p-y-8px p-x-8px md:p-y-14px md:p-y-12px">
-                <h3>{{ v.title }}</h3>
-                <p>
-                  <template v-for="actor in v.casts"> {{ actor.actor.name }}&nbsp; </template>
-                  <span v-if="!v.casts.length">-</span>
-                </p>
-              </div>
-            </nuxt-link>
-          </li>
-        </ul>
-      </div>
-    </section>
+    </div>
+    <Login />
   </div>
 </template>
 
 <script setup lang="ts">
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-  import 'swiper/css';
-  import 'swiper/css/pagination';
-  import type { Swiper as SwiperClass } from 'swiper/types';
-  import { Pagination, Autoplay } from 'swiper/modules';
-  import type { WebIndexList } from '~~/types/api/webIndex';
+  import { useAsyncData } from '#app';
+  import { WEB_TOKEN } from '#shared/cookiesName';
+  import type { WebMovieListItem } from '~~/types/api/webMovieList';
 
-  const currIndex = ref(0);
-  const [{ data: banner }, { data: columns }] = await Promise.all([
-    useFetch('/api/web/basic/banner/list', {
-      transform: banner => {
-        return banner.map(item => ({
-          img: item.img || '',
-          url: item.url,
-          urlType: item.urlType,
-          id: item.id,
-          title: item.title,
-          videoUrl: item.videoUrl || ''
-        }));
-      },
-      getCachedData: key => localCacheData(key)
-    }),
-    useFetch<WebIndexList>('/api/web', {
-      getCachedData: key => localCacheData(key)
-    })
-  ]);
+  definePageMeta({
+    layout: false
+  });
 
-  const onSlideChange = (swiper: SwiperClass) => {
-    currIndex.value = swiper.activeIndex;
-    const videoDom: NodeListOf<HTMLVideoElement> = document.querySelectorAll('.banner-video');
-    videoDom.forEach((item, index) => {
-      if (index === currIndex.value) {
-        item.play();
-      } else {
-        item.pause();
+  const token = useCookie(WEB_TOKEN);
+  const router = useRouter();
+  const currentIndex = ref(0);
+  const previousIndex = ref(0);
+  const isDragging = ref(false);
+  const startY = ref(0);
+  const initialOffset = ref(0);
+  const threshold = 100;
+  const movies = ref<WebMovieListItem[]>([]);
+  const pageNum = ref(1);
+
+  // 获取电影列表
+  const { data, refresh } = await useAsyncData(`movies:${pageNum.value}`, () => {
+    return $fetch('/api/web/movie/list', {
+      query: {
+        pageNum: pageNum.value,
+        limit: 10,
+        orderBy: 'pv'
       }
     });
+  });
+
+  if (data.value) {
+    movies.value = movies.value.concat(
+      data.value.rows.map(movie => ({
+        ...movie,
+        isLiked: false,
+        isFavorited: false,
+        likes: movie.pv?.pv || 0
+      }))
+    );
+  }
+
+  const currentMovie = computed(() => {
+    return movies.value[currentIndex.value];
+  });
+
+  const scrollToMovie = async (index: number) => {
+    if (isDragging.value) return;
+    const offset = -index * 100;
+    const videosWrapper = document.querySelector('.videos-wrapper');
+    if (videosWrapper) {
+      videosWrapper.style.transform = `translateY(${offset}vh)`;
+    }
+
+    if (previousIndex.value !== index) {
+      if (index === movies.value.length - 1) {
+        pageNum.value++;
+        await refresh();
+        if (data.value && data.value.rows.length) {
+          movies.value = movies.value.concat(
+            data.value.rows.map(movie => ({
+              ...movie,
+              isLiked: false,
+              isFavorited: false,
+              likes: movie.pv?.pv || 0
+            }))
+          );
+        } else {
+          pageNum.value = 0;
+        }
+      }
+    }
+    previousIndex.value = index;
   };
 
-  const btnLink = computed(() => {
-    const currBanner = banner.value;
-    if (currBanner && currBanner.length > 0) {
-      return currBanner[currIndex.value]?.url ?? '';
+  const handleMouseDown = (event: MouseEvent) => {
+    isDragging.value = true;
+    startY.value = event.clientY;
+    initialOffset.value = -currentIndex.value * 100;
+    const videosWrapper = document.querySelector('.videos-wrapper');
+    if (videosWrapper) {
+      videosWrapper.style.transition = 'none';
     }
-    return '';
-  });
+  };
+
+  const handleMouseMove = (event: MouseEvent) => {
+    if (!isDragging.value) return;
+    const deltaY = event.clientY - startY.value;
+    const newOffset = initialOffset.value + (deltaY / window.innerHeight) * 100;
+    const videosWrapper = document.querySelector('.videos-wrapper');
+    if (videosWrapper) {
+      videosWrapper.style.transform = `translateY(${newOffset}vh)`;
+    }
+  };
+
+  const handleMouseUp = (event: MouseEvent) => {
+    event.preventDefault();
+    event.stopPropagation();
+    if (!isDragging.value) return;
+    isDragging.value = false;
+    const endY = event.clientY;
+    const deltaY = endY - startY.value;
+    const videosWrapper = document.querySelector('.videos-wrapper');
+    if (videosWrapper) {
+      videosWrapper.style.transition = 'transform 0.3s ease-in-out';
+    }
+    if (deltaY < -threshold && currentIndex.value < movies.value.length - 1) {
+      currentIndex.value++;
+    } else if (deltaY > threshold && currentIndex.value > 0) {
+      currentIndex.value--;
+    }
+    scrollToMovie(currentIndex.value);
+  };
+
+  const handleWheel = (event: WheelEvent) => {
+    const delta = event.deltaY;
+    if (delta > 0 && currentIndex.value < movies.value.length - 1) {
+      currentIndex.value++;
+      scrollToMovie(currentIndex.value);
+    } else if (delta < 0 && currentIndex.value > 0) {
+      currentIndex.value--;
+      scrollToMovie(currentIndex.value);
+    }
+  };
+
+  const handleTouchStart = (event: TouchEvent) => {
+    isDragging.value = true;
+    startY.value = event.touches[0].clientY;
+    initialOffset.value = -currentIndex.value * 100;
+    const videosWrapper = document.querySelector('.videos-wrapper');
+    if (videosWrapper) {
+      videosWrapper.style.transition = 'none';
+    }
+  };
+
+  const handleTouchMove = (event: TouchEvent) => {
+    if (!isDragging.value) return;
+    const deltaY = event.touches[0].clientY - startY.value;
+    const newOffset = initialOffset.value + (deltaY / window.innerHeight) * 100;
+    const videosWrapper = document.querySelector('.videos-wrapper');
+    if (videosWrapper) {
+      videosWrapper.style.transform = `translateY(${newOffset}vh)`;
+    }
+  };
+
+  const handleTouchEnd = (event: TouchEvent) => {
+    event.preventDefault();
+    event.stopPropagation();
+    if (!isDragging.value) return;
+    isDragging.value = false;
+    const endY = event.changedTouches[0].clientY;
+    const deltaY = endY - startY.value;
+    const videosWrapper = document.querySelector('.videos-wrapper');
+    if (videosWrapper) {
+      videosWrapper.style.transition = 'transform 0.3s ease-in-out';
+    }
+    if (deltaY < -threshold && currentIndex.value < movies.value.length - 1) {
+      currentIndex.value++;
+    } else if (deltaY > threshold && currentIndex.value > 0) {
+      currentIndex.value--;
+    }
+    scrollToMovie(currentIndex.value);
+  };
+
+
+  function formatNumber(num: number) {
+    if (!num) return '0';
+    if (num >= 10000) {
+      return (num / 10000).toFixed(1) + '万';
+    }
+    return num.toString();
+  }
+
+  function handleLike(movie: WebMovieListItem) {
+    if (!token.value) {
+      const loginVisible = useLoginVisible();
+      loginVisible.value = true;
+      return;
+    }
+    // TODO: 实现点赞功能
+    movie.isLiked = !movie.isLiked;
+    if (movie.isLiked) {
+      movie.likes = (movie.likes || 0) + 1;
+    } else {
+      movie.likes = Math.max(0, (movie.likes || 0) - 1);
+    }
+  }
+
+  function handleFavorite(movie: WebMovieListItem) {
+    if (!token.value) {
+      const loginVisible = useLoginVisible();
+      loginVisible.value = true;
+      return;
+    }
+    // TODO: 实现收藏功能
+    movie.isFavorited = !movie.isFavorited;
+  }
+
+  function handleShare(movie: WebMovieListItem) {
+    // TODO: 实现分享功能
+    if (navigator.share) {
+      navigator.share({
+        title: movie.title,
+        text: movie.summary || '',
+        url: `${window.location.origin}/column/${movie.columnValue}/detail/${movie.movieBasicsId}`
+      });
+    } else {
+      // 复制链接到剪贴板
+      const url = `${window.location.origin}/column/${movie.columnValue}/detail/${movie.movieBasicsId}`;
+      navigator.clipboard.writeText(url).then(() => {
+        // 可以显示提示消息
+      });
+    }
+  }
 </script>
 
 <style lang="scss">
-  .video-list {
-    ul {
-      @apply grid gap-15px grid-cols-3 md:grid-cols-4 lg:grid-cols-6 md:gap-x-20px;
-      li {
-        background: #1c1d1f;
-        border-radius: 10px;
-        overflow: hidden;
-        @apply hover:scale-110 transition-all text-14px;
-        img {
-          width: 100%;
-          aspect-ratio: 4 / 5;
-          object-fit: cover;
-          overflow: hidden;
-        }
-        h3 {
-          overflow: hidden;
-          text-overflow: ellipsis;
-          -o-text-overflow: ellipsis;
-          white-space: nowrap;
-        }
-        p {
-          color: rgba(255, 255, 255, 0.35);
-          @apply text-12px mt-5px truncate;
-        }
-        .rate {
-          @apply text-[#fff] absolute right-10px bottom-10px z-10 text-14px;
-          text-shadow:
-            -1px -1px 0 #0006,
-            1px -1px 0 #0006,
-            -1px 1px 0 #0006,
-            1px 1px 0 #0006;
-        }
-      }
-    }
+  .videos-wrapper {
+    @apply w-full relative;
+    transition: transform 0.3s ease-in-out;
   }
-  .genre {
-    a {
-      @apply text-14px relative text-[#999] hover:text-white;
-    }
-    a:before {
-      background: #2d2f3b;
-      content: '';
-      display: block;
-      height: 10px;
-      position: absolute;
-      right: -10px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 1px;
-    }
-    a:last-child:before {
-      width: 0;
-    }
+
+  .movie-video {
+    @apply w-full h-full object-contain top-0 left-0;
   }
-  .banner {
-    position: relative;
-    &__left {
-      background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, #111214 100%);
-      width: 250px;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-      z-index: 2;
-      @apply hidden md:block;
-    }
-    &__right {
-      background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #111214 100%);
-      width: 250px;
-      height: 100%;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 2;
-      @apply hidden md:block;
-    }
-    &__top {
-      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #111214 100%);
-      width: 100%;
-      height: 100px;
-      position: absolute;
-      left: 0;
-      top: 0;
-      z-index: 2;
-    }
-    &__bottom {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #111214 100%);
-      width: 100%;
-      height: 100px;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      z-index: 2;
-    }
-    .swiper-slide__play-btn {
-      color: #fff;
-      border: none;
-      background-color: rgba(255, 255, 255, 0.1);
-      outline: none;
-      border-radius: 50px;
-      padding: 6px 20px;
-      -webkit-backdrop-filter: blur(5px);
-      backdrop-filter: blur(5px);
-      @apply flex items-center justify-center gap-x-6px cursor-pointer z-3 absolute left-20px bottom-50px text-18px lg:left-50px;
+
+  .video-info {
+    @apply absolute bottom-80px left-20px z-10 max-w-70%;
+  }
+
+  .video-actions {
+    @apply absolute bottom-80px right-15px flex flex-col gap-15px z-10;
+
+    .action-icon {
+      @apply flex flex-col items-center gap-5px cursor-pointer transition-all duration-200;
+
       &:hover {
-        background: #ffffff;
-        color: #111214;
+        transform: scale(1.1);
       }
+
+      i {
+        @apply text-white opacity-90 transition-all duration-200;
+      }
+
+      span {
+        @apply text-white text-12px opacity-80;
+      }
+    }
+  }
+
+  // 动画效果
+  .animate__bounceIn {
+    animation: bounceIn 1s ease;
+  }
+
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.3);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
     }
   }
 </style>
