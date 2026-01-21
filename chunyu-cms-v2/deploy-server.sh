@@ -76,8 +76,8 @@ interactive_config() {
         DOMAIN="$input_domain"
     fi
     
-    # MySQL 密码
-    DEFAULT_MYSQL_PASS="MovieCMS@$(openssl rand -hex 4)"
+    # MySQL 密码（固定默认密码，用户可以选择修改）
+    DEFAULT_MYSQL_PASS="MovieCMS@2024"
     read -p "请输入 MySQL root 密码 [默认: ${DEFAULT_MYSQL_PASS}]: " input_mysql_pass
     if [ -z "$input_mysql_pass" ]; then
         MYSQL_ROOT_PASSWORD="$DEFAULT_MYSQL_PASS"
@@ -85,8 +85,8 @@ interactive_config() {
         MYSQL_ROOT_PASSWORD="$input_mysql_pass"
     fi
     
-    # Redis 密码
-    DEFAULT_REDIS_PASS="Redis@$(openssl rand -hex 4)"
+    # Redis 密码（固定默认密码，用户可以选择修改）
+    DEFAULT_REDIS_PASS="Redis@2024"
     read -p "请输入 Redis 密码 [默认: ${DEFAULT_REDIS_PASS}]: " input_redis_pass
     if [ -z "$input_redis_pass" ]; then
         REDIS_PASSWORD="$DEFAULT_REDIS_PASS"
