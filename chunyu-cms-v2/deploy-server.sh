@@ -207,8 +207,10 @@ log_info "pm2 版本: $(pm2 -v)"
 log_info "[3/8] 安装 MySQL 8.0..."
 
 # 检查是否已安装 MySQL
+MYSQL_ALREADY_INSTALLED=false
 if command -v mysql &> /dev/null; then
     log_warn "MySQL 已安装，跳过安装步骤"
+    MYSQL_ALREADY_INSTALLED=true
 else
     # 预设 MySQL root 密码，避免交互式安装
     debconf-set-selections <<< "mysql-server mysql-server/root_password password ${MYSQL_ROOT_PASSWORD}"
@@ -225,9 +227,47 @@ systemctl enable mysql
 sleep 3
 
 # 设置 MySQL root 密码和创建数据库
-mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';" 2>/dev/null || true
-mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "CREATE DATABASE IF NOT EXISTS \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
-mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "FLUSH PRIVILEGES;"
+if [ "$MYSQL_ALREADY_INSTALLED" = true ]; then
+    # MySQL 已安装，尝试无密码登录或使用新密码
+    log_info "尝试设置 MySQL root 密码..."
+    
+    # 先尝试无密码登录
+    if mysql -u root -e "SELECT 1;" 2>/dev/null; then
+        log_info "检测到 MySQL 无密码，正在设置密码..."
+        mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';" 2>/dev/null || \
+        mysql -u root -e "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('${MYSQL_ROOT_PASSWORD}');" 2>/dev/null || true
+        mysql -u root -e "FLUSH PRIVILEGES;" 2>/dev/null || true
+    fi
+    
+    # 尝试使用新密码登录
+    if mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "SELECT 1;" 2>/dev/null; then
+        log_info "MySQL 密码设置成功"
+    else
+        log_warn "无法使用新密码访问 MySQL，可能需要手动设置密码"
+        log_info "请手动执行以下命令设置 MySQL root 密码："
+        log_info "mysql -u root -e \"ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';\""
+        log_info "mysql -u root -e \"FLUSH PRIVILEGES;\""
+        log_warn "或者如果 MySQL 已有密码，请使用现有密码继续"
+    fi
+else
+    # 新安装的 MySQL，直接设置密码
+    mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';" 2>/dev/null || true
+fi
+
+# 创建数据库（尝试使用新密码，如果失败则尝试无密码）
+if mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "CREATE DATABASE IF NOT EXISTS \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;" 2>/dev/null; then
+    log_info "数据库 ${MYSQL_DATABASE} 创建成功"
+elif mysql -u root -e "CREATE DATABASE IF NOT EXISTS \`${MYSQL_DATABASE}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;" 2>/dev/null; then
+    log_info "数据库 ${MYSQL_DATABASE} 创建成功（使用无密码登录）"
+    # 设置密码
+    mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '${MYSQL_ROOT_PASSWORD}';" 2>/dev/null || true
+    mysql -u root -e "FLUSH PRIVILEGES;" 2>/dev/null || true
+else
+    log_error "无法创建数据库，请检查 MySQL 配置"
+    exit 1
+fi
+
+mysql -u root -p"${MYSQL_ROOT_PASSWORD}" -e "FLUSH PRIVILEGES;" 2>/dev/null || mysql -u root -e "FLUSH PRIVILEGES;" 2>/dev/null || true
 
 log_info "MySQL 安装完成"
 
@@ -347,7 +387,14 @@ EOF
 
 # 导入数据库
 log_info "导入数据库..."
-mysql -u root -p"${MYSQL_ROOT_PASSWORD}" ${MYSQL_DATABASE} < chunyu-cms-web/chunyu-cms-v2.sql
+if mysql -u root -p"${MYSQL_ROOT_PASSWORD}" ${MYSQL_DATABASE} < chunyu-cms-web/chunyu-cms-v2.sql 2>/dev/null; then
+    log_info "数据库导入成功"
+elif mysql -u root ${MYSQL_DATABASE} < chunyu-cms-web/chunyu-cms-v2.sql 2>/dev/null; then
+    log_info "数据库导入成功（使用无密码登录）"
+else
+    log_error "数据库导入失败，请检查 MySQL 配置和 SQL 文件"
+    exit 1
+fi
 
 # 安装依赖并构建 Web
 log_info "安装 Web 依赖 (可能需要几分钟)..."
